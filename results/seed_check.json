@@ -1,0 +1,47 @@
+[
+  {
+    "seed": 2027,
+    "z_community_chest_1": -4.007,
+    "max_abs_z": 4.007,
+    "max_abs_z_category": "Community Chest 1",
+    "hotelling_t2": 58.899,
+    "hotelling_df": 39,
+    "hotelling_p": 0.0213
+  },
+  {
+    "seed": 1,
+    "z_community_chest_1": 0.396,
+    "max_abs_z": 2.414,
+    "max_abs_z_category": "Pacific Avenue",
+    "hotelling_t2": 36.243,
+    "hotelling_df": 39,
+    "hotelling_p": 0.5963
+  },
+  {
+    "seed": 2,
+    "z_community_chest_1": 1.427,
+    "max_abs_z": 2.675,
+    "max_abs_z_category": "Pacific Avenue",
+    "hotelling_t2": 30.926,
+    "hotelling_df": 39,
+    "hotelling_p": 0.8184
+  },
+  {
+    "seed": 3,
+    "z_community_chest_1": -0.209,
+    "max_abs_z": 1.866,
+    "max_abs_z_category": "Virginia Avenue",
+    "hotelling_t2": 24.582,
+    "hotelling_df": 39,
+    "hotelling_p": 0.9652
+  },
+  {
+    "seed": 4,
+    "z_community_chest_1": -0.188,
+    "max_abs_z": 2.255,
+    "max_abs_z_category": "Virginia Avenue",
+    "hotelling_t2": 39.203,
+    "hotelling_df": 39,
+    "hotelling_p": 0.4608
+  }
+]

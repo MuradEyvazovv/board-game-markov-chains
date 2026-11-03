@@ -1,0 +1,720 @@
+{
+  "stay": {
+    "policy": "stay",
+    "seed": 2026,
+    "n_chains": 1000000,
+    "burn_in_rolls_per_chain": 100,
+    "recorded_rolls_per_chain": 20,
+    "total_rolls_simulated": 120000000,
+    "total_rolls_recorded": 20000000,
+    "start_bias_bound_lambda2_pow_burn_in": 1.08e-06,
+    "runtime_seconds": 3.39,
+    "max_abs_error": 0.0001241,
+    "max_abs_error_category": "In Jail",
+    "max_abs_z": 2.366,
+    "categories_with_exact_inside_95ci": "37 of 40",
+    "chi_square": {
+      "data": "category of each chain after its last roll (independent draws)",
+      "n_draws": 1000000,
+      "statistic": 34.2352,
+      "df": 39,
+      "p_value": 0.6868
+    },
+    "hotelling_t2": {
+      "data": "per-chain frequency vectors over all recorded rolls (independent across chains)",
+      "n_vectors": 1000000,
+      "statistic": 48.9569,
+      "df": 39,
+      "p_value": 0.1318
+    },
+    "per_category": [
+      {
+        "name": "Go",
+        "exact": 0.029182625,
+        "simulated": 0.02923785,
+        "z": 1.542,
+        "ci95_low": 0.029167676,
+        "ci95_high": 0.029308024
+      },
+      {
+        "name": "Mediterranean Avenue",
+        "exact": 0.020100288,
+        "simulated": 0.0200839,
+        "z": -0.5492,
+        "ci95_low": 0.020025416,
+        "ci95_high": 0.020142384
+      },
+      {
+        "name": "Community Chest 1",
+        "exact": 0.017775077,
+        "simulated": 0.01776615,
+        "z": -0.3158,
+        "ci95_low": 0.017710751,
+        "ci95_high": 0.017821549
+      },
+      {
+        "name": "Baltic Avenue",
+        "exact": 0.020397644,
+        "simulated": 0.0204439,
+        "z": 1.537,
+        "ci95_low": 0.02038491,
+        "ci95_high": 0.02050289
+      },
+      {
+        "name": "Income Tax",
+        "exact": 0.021965935,
+        "simulated": 0.02198065,
+        "z": 0.4728,
+        "ci95_low": 0.021919645,
+        "ci95_high": 0.022041655
+      },
+      {
+        "name": "Reading Railroad",
+        "exact": 0.0280496,
+        "simulated": 0.02807925,
+        "z": 0.8503,
+        "ci95_low": 0.028010909,
+        "ci95_high": 0.028147591
+      },
+      {
+        "name": "Oriental Avenue",
+        "exact": 0.021345743,
+        "simulated": 0.021358,
+        "z": 0.3999,
+        "ci95_low": 0.021297919,
+        "ci95_high": 0.021418081
+      },
+      {
+        "name": "Chance 1",
+        "exact": 0.0081636259,
+        "simulated": 0.0081568,
+        "z": -0.3458,
+        "ci95_low": 0.0081181143,
+        "ci95_high": 0.0081954857
+      },
+      {
+        "name": "Vermont Avenue",
+        "exact": 0.02190343,
+        "simulated": 0.02187535,
+        "z": -0.905,
+        "ci95_low": 0.021814536,
+        "ci95_high": 0.021936164
+      },
+      {
+        "name": "Connecticut Avenue",
+        "exact": 0.021711771,
+        "simulated": 0.02170435,
+        "z": -0.2399,
+        "ci95_low": 0.021643716,
+        "ci95_high": 0.021764984
+      },
+      {
+        "name": "Just Visiting",
+        "exact": 0.021422281,
+        "simulated": 0.021436,
+        "z": 0.4458,
+        "ci95_low": 0.02137568,
+        "ci95_high": 0.02149632
+      },
+      {
+        "name": "St. Charles Place",
+        "exact": 0.025595521,
+        "simulated": 0.0255752,
+        "z": -0.6062,
+        "ci95_low": 0.025509492,
+        "ci95_high": 0.025640908
+      },
+      {
+        "name": "Electric Company",
+        "exact": 0.026154825,
+        "simulated": 0.02616425,
+        "z": 0.2795,
+        "ci95_low": 0.026098161,
+        "ci95_high": 0.026230339
+      },
+      {
+        "name": "States Avenue",
+        "exact": 0.021760003,
+        "simulated": 0.02182585,
+        "z": 2.123,
+        "ci95_low": 0.021765063,
+        "ci95_high": 0.021886637
+      },
+      {
+        "name": "Virginia Avenue",
+        "exact": 0.024252704,
+        "simulated": 0.02425255,
+        "z": -0.004732,
+        "ci95_low": 0.024188687,
+        "ci95_high": 0.024316413
+      },
+      {
+        "name": "Pennsylvania Railroad",
+        "exact": 0.026365728,
+        "simulated": 0.0263706,
+        "z": 0.1443,
+        "ci95_low": 0.02630444,
+        "ci95_high": 0.02643676
+      },
+      {
+        "name": "St. James Place",
+        "exact": 0.026789187,
+        "simulated": 0.0267089,
+        "z": -2.366,
+        "ci95_low": 0.0266424,
+        "ci95_high": 0.0267754
+      },
+      {
+        "name": "Community Chest 2",
+        "exact": 0.022951309,
+        "simulated": 0.02295165,
+        "z": 0.01075,
+        "ci95_low": 0.022889399,
+        "ci95_high": 0.023013901
+      },
+      {
+        "name": "Tennessee Avenue",
+        "exact": 0.028196841,
+        "simulated": 0.02812055,
+        "z": -2.198,
+        "ci95_low": 0.028052515,
+        "ci95_high": 0.028188585
+      },
+      {
+        "name": "New York Avenue",
+        "exact": 0.028115622,
+        "simulated": 0.0281555,
+        "z": 1.149,
+        "ci95_low": 0.028087457,
+        "ci95_high": 0.028223543
+      },
+      {
+        "name": "Free Parking",
+        "exact": 0.028247973,
+        "simulated": 0.02823855,
+        "z": -0.2707,
+        "ci95_low": 0.028170321,
+        "ci95_high": 0.028306779
+      },
+      {
+        "name": "Kentucky Avenue",
+        "exact": 0.026142143,
+        "simulated": 0.0261316,
+        "z": -0.3142,
+        "ci95_low": 0.026065834,
+        "ci95_high": 0.026197366
+      },
+      {
+        "name": "Chance 2",
+        "exact": 0.010449535,
+        "simulated": 0.0104219,
+        "z": -1.242,
+        "ci95_low": 0.010378277,
+        "ci95_high": 0.010465523
+      },
+      {
+        "name": "Indiana Avenue",
+        "exact": 0.025672793,
+        "simulated": 0.0256245,
+        "z": -1.455,
+        "ci95_low": 0.025559444,
+        "ci95_high": 0.025689556
+      },
+      {
+        "name": "Illinois Avenue",
+        "exact": 0.02995492,
+        "simulated": 0.0299389,
+        "z": -0.4481,
+        "ci95_low": 0.02986882,
+        "ci95_high": 0.03000898
+      },
+      {
+        "name": "B&O Railroad",
+        "exact": 0.028928474,
+        "simulated": 0.02891865,
+        "z": -0.2808,
+        "ci95_low": 0.028850065,
+        "ci95_high": 0.028987235
+      },
+      {
+        "name": "Atlantic Avenue",
+        "exact": 0.025400841,
+        "simulated": 0.02541985,
+        "z": 0.574,
+        "ci95_low": 0.02535494,
+        "ci95_high": 0.02548476
+      },
+      {
+        "name": "Ventnor Avenue",
+        "exact": 0.025192014,
+        "simulated": 0.02521295,
+        "z": 0.6355,
+        "ci95_low": 0.02514838,
+        "ci95_high": 0.02527752
+      },
+      {
+        "name": "Water Works",
+        "exact": 0.026547522,
+        "simulated": 0.02652315,
+        "z": -0.723,
+        "ci95_low": 0.026457076,
+        "ci95_high": 0.026589224
+      },
+      {
+        "name": "Marvin Gardens",
+        "exact": 0.024387224,
+        "simulated": 0.0243496,
+        "z": -1.157,
+        "ci95_low": 0.024285886,
+        "ci95_high": 0.024413314
+      },
+      {
+        "name": "Go To Jail",
+        "exact": 0.0,
+        "simulated": 0.0,
+        "z": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      {
+        "name": "Pacific Avenue",
+        "exact": 0.025249151,
+        "simulated": 0.02523345,
+        "z": -0.4768,
+        "ci95_low": 0.025168913,
+        "ci95_high": 0.025297987
+      },
+      {
+        "name": "North Carolina Avenue",
+        "exact": 0.024769214,
+        "simulated": 0.02481265,
+        "z": 1.329,
+        "ci95_low": 0.024748582,
+        "ci95_high": 0.024876718
+      },
+      {
+        "name": "Community Chest 3",
+        "exact": 0.022291895,
+        "simulated": 0.02233855,
+        "z": 1.488,
+        "ci95_low": 0.022277107,
+        "ci95_high": 0.022399993
+      },
+      {
+        "name": "Pennsylvania Avenue",
+        "exact": 0.023576359,
+        "simulated": 0.02356845,
+        "z": -0.2474,
+        "ci95_low": 0.023505787,
+        "ci95_high": 0.023631113
+      },
+      {
+        "name": "Short Line",
+        "exact": 0.022924746,
+        "simulated": 0.0229285,
+        "z": 0.1189,
+        "ci95_low": 0.022866606,
+        "ci95_high": 0.022990394
+      },
+      {
+        "name": "Chance 3",
+        "exact": 0.0081744544,
+        "simulated": 0.00816545,
+        "z": -0.457,
+        "ci95_low": 0.0081268276,
+        "ci95_high": 0.0082040724
+      },
+      {
+        "name": "Park Place",
+        "exact": 0.020616192,
+        "simulated": 0.02058205,
+        "z": -1.132,
+        "ci95_low": 0.020522942,
+        "ci95_high": 0.020641158
+      },
+      {
+        "name": "Luxury Tax",
+        "exact": 0.020558414,
+        "simulated": 0.02051835,
+        "z": -1.33,
+        "ci95_low": 0.020459321,
+        "ci95_high": 0.020577379
+      },
+      {
+        "name": "Boardwalk",
+        "exact": 0.024861203,
+        "simulated": 0.0248464,
+        "z": -0.4474,
+        "ci95_low": 0.024781549,
+        "ci95_high": 0.024911251
+      },
+      {
+        "name": "In Jail",
+        "exact": 0.093855172,
+        "simulated": 0.09397925,
+        "z": 1.208,
+        "ci95_low": 0.093777865,
+        "ci95_high": 0.094180635
+      }
+    ]
+  },
+  "leave_early": {
+    "policy": "leave_early",
+    "seed": 2027,
+    "n_chains": 1000000,
+    "burn_in_rolls_per_chain": 100,
+    "recorded_rolls_per_chain": 20,
+    "total_rolls_simulated": 120000000,
+    "total_rolls_recorded": 20000000,
+    "start_bias_bound_lambda2_pow_burn_in": 1.76e-08,
+    "runtime_seconds": 3.47,
+    "max_abs_error": 0.0001159,
+    "max_abs_error_category": "Community Chest 1",
+    "max_abs_z": 4.007,
+    "categories_with_exact_inside_95ci": "37 of 40",
+    "chi_square": {
+      "data": "category of each chain after its last roll (independent draws)",
+      "n_draws": 1000000,
+      "statistic": 45.4273,
+      "df": 39,
+      "p_value": 0.2219
+    },
+    "hotelling_t2": {
+      "data": "per-chain frequency vectors over all recorded rolls (independent across chains)",
+      "n_vectors": 1000000,
+      "statistic": 58.8988,
+      "df": 39,
+      "p_value": 0.02131
+    },
+    "per_category": [
+      {
+        "name": "Go",
+        "exact": 0.03096123,
+        "simulated": 0.03091375,
+        "z": -1.296,
+        "ci95_low": 0.030841944,
+        "ci95_high": 0.030985556
+      },
+      {
+        "name": "Mediterranean Avenue",
+        "exact": 0.021313773,
+        "simulated": 0.02135945,
+        "z": 1.494,
+        "ci95_low": 0.021299521,
+        "ci95_high": 0.021419379
+      },
+      {
+        "name": "Community Chest 1",
+        "exact": 0.0188488,
+        "simulated": 0.0187329,
+        "z": -4.007,
+        "ci95_low": 0.018676203,
+        "ci95_high": 0.018789597
+      },
+      {
+        "name": "Baltic Avenue",
+        "exact": 0.021624022,
+        "simulated": 0.02165435,
+        "z": 0.9832,
+        "ci95_low": 0.021593894,
+        "ci95_high": 0.021714806
+      },
+      {
+        "name": "Income Tax",
+        "exact": 0.02328523,
+        "simulated": 0.0232224,
+        "z": -1.971,
+        "ci95_low": 0.023159921,
+        "ci95_high": 0.023284879
+      },
+      {
+        "name": "Reading Railroad",
+        "exact": 0.029631032,
+        "simulated": 0.0296112,
+        "z": -0.5573,
+        "ci95_low": 0.029541448,
+        "ci95_high": 0.029680952
+      },
+      {
+        "name": "Oriental Avenue",
+        "exact": 0.022621397,
+        "simulated": 0.0226909,
+        "z": 2.212,
+        "ci95_low": 0.022629305,
+        "ci95_high": 0.022752495
+      },
+      {
+        "name": "Chance 1",
+        "exact": 0.0086504781,
+        "simulated": 0.00866705,
+        "z": 0.8171,
+        "ci95_low": 0.008627297,
+        "ci95_high": 0.008706803
+      },
+      {
+        "name": "Vermont Avenue",
+        "exact": 0.023209602,
+        "simulated": 0.0232267,
+        "z": 0.5382,
+        "ci95_low": 0.023164437,
+        "ci95_high": 0.023288963
+      },
+      {
+        "name": "Connecticut Avenue",
+        "exact": 0.02300335,
+        "simulated": 0.02304785,
+        "z": 1.403,
+        "ci95_low": 0.022985694,
+        "ci95_high": 0.023110006
+      },
+      {
+        "name": "Just Visiting",
+        "exact": 0.022695391,
+        "simulated": 0.02268745,
+        "z": -0.2523,
+        "ci95_low": 0.022625761,
+        "ci95_high": 0.022749139
+      },
+      {
+        "name": "St. Charles Place",
+        "exact": 0.027016578,
+        "simulated": 0.0269909,
+        "z": -0.7488,
+        "ci95_low": 0.026923688,
+        "ci95_high": 0.027058112
+      },
+      {
+        "name": "Electric Company",
+        "exact": 0.026040375,
+        "simulated": 0.02609785,
+        "z": 1.709,
+        "ci95_low": 0.026031944,
+        "ci95_high": 0.026163756
+      },
+      {
+        "name": "States Avenue",
+        "exact": 0.023720903,
+        "simulated": 0.02370915,
+        "z": -0.3644,
+        "ci95_low": 0.023645941,
+        "ci95_high": 0.023772359
+      },
+      {
+        "name": "Virginia Avenue",
+        "exact": 0.024648884,
+        "simulated": 0.0245948,
+        "z": -1.646,
+        "ci95_low": 0.024530406,
+        "ci95_high": 0.024659194
+      },
+      {
+        "name": "Pennsylvania Railroad",
+        "exact": 0.029199693,
+        "simulated": 0.0291856,
+        "z": -0.3969,
+        "ci95_low": 0.029116007,
+        "ci95_high": 0.029255193
+      },
+      {
+        "name": "St. James Place",
+        "exact": 0.027924169,
+        "simulated": 0.02795875,
+        "z": 0.9932,
+        "ci95_low": 0.027890509,
+        "ci95_high": 0.028026991
+      },
+      {
+        "name": "Community Chest 2",
+        "exact": 0.025944648,
+        "simulated": 0.0259251,
+        "z": -0.5795,
+        "ci95_low": 0.025858983,
+        "ci95_high": 0.025991217
+      },
+      {
+        "name": "Tennessee Avenue",
+        "exact": 0.029355855,
+        "simulated": 0.02936045,
+        "z": 0.1292,
+        "ci95_low": 0.029290741,
+        "ci95_high": 0.029430159
+      },
+      {
+        "name": "New York Avenue",
+        "exact": 0.030851689,
+        "simulated": 0.0308927,
+        "z": 1.125,
+        "ci95_low": 0.030821276,
+        "ci95_high": 0.030964124
+      },
+      {
+        "name": "Free Parking",
+        "exact": 0.028836013,
+        "simulated": 0.0288329,
+        "z": -0.0883,
+        "ci95_low": 0.028763801,
+        "ci95_high": 0.028901999
+      },
+      {
+        "name": "Kentucky Avenue",
+        "exact": 0.028358431,
+        "simulated": 0.0283405,
+        "z": -0.5125,
+        "ci95_low": 0.028271918,
+        "ci95_high": 0.028409082
+      },
+      {
+        "name": "Chance 2",
+        "exact": 0.010480329,
+        "simulated": 0.0104898,
+        "z": 0.4245,
+        "ci95_low": 0.010446068,
+        "ci95_high": 0.010533532
+      },
+      {
+        "name": "Indiana Avenue",
+        "exact": 0.027356858,
+        "simulated": 0.0273477,
+        "z": -0.2664,
+        "ci95_low": 0.027280332,
+        "ci95_high": 0.027415068
+      },
+      {
+        "name": "Illinois Avenue",
+        "exact": 0.031857663,
+        "simulated": 0.0318938,
+        "z": 0.9775,
+        "ci95_low": 0.03182134,
+        "ci95_high": 0.03196626
+      },
+      {
+        "name": "B&O Railroad",
+        "exact": 0.030659047,
+        "simulated": 0.03067335,
+        "z": 0.3966,
+        "ci95_low": 0.030602661,
+        "ci95_high": 0.030744039
+      },
+      {
+        "name": "Atlantic Avenue",
+        "exact": 0.027072038,
+        "simulated": 0.0270361,
+        "z": -1.054,
+        "ci95_low": 0.026969301,
+        "ci95_high": 0.027102899
+      },
+      {
+        "name": "Ventnor Avenue",
+        "exact": 0.026788577,
+        "simulated": 0.0267821,
+        "z": -0.191,
+        "ci95_low": 0.026715639,
+        "ci95_high": 0.026848561
+      },
+      {
+        "name": "Water Works",
+        "exact": 0.028074184,
+        "simulated": 0.028071,
+        "z": -0.09209,
+        "ci95_low": 0.028003234,
+        "ci95_high": 0.028138766
+      },
+      {
+        "name": "Marvin Gardens",
+        "exact": 0.025860489,
+        "simulated": 0.0258845,
+        "z": 0.7203,
+        "ci95_low": 0.025819168,
+        "ci95_high": 0.025949832
+      },
+      {
+        "name": "Go To Jail",
+        "exact": 0.0,
+        "simulated": 0.0,
+        "z": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      {
+        "name": "Pacific Avenue",
+        "exact": 0.026773705,
+        "simulated": 0.0267427,
+        "z": -0.9191,
+        "ci95_low": 0.026676585,
+        "ci95_high": 0.026808815
+      },
+      {
+        "name": "North Carolina Avenue",
+        "exact": 0.02625173,
+        "simulated": 0.0262542,
+        "z": 0.07385,
+        "ci95_low": 0.02618865,
+        "ci95_high": 0.02631975
+      },
+      {
+        "name": "Community Chest 3",
+        "exact": 0.023660549,
+        "simulated": 0.02370525,
+        "z": 1.392,
+        "ci95_low": 0.023642319,
+        "ci95_high": 0.023768181
+      },
+      {
+        "name": "Pennsylvania Avenue",
+        "exact": 0.02500628,
+        "simulated": 0.0249968,
+        "z": -0.2894,
+        "ci95_low": 0.024932589,
+        "ci95_high": 0.025061011
+      },
+      {
+        "name": "Short Line",
+        "exact": 0.02432638,
+        "simulated": 0.0243286,
+        "z": 0.0686,
+        "ci95_low": 0.024265164,
+        "ci95_high": 0.024392036
+      },
+      {
+        "name": "Chance 3",
+        "exact": 0.0086687335,
+        "simulated": 0.0087024,
+        "z": 1.655,
+        "ci95_low": 0.0086625356,
+        "ci95_high": 0.0087422644
+      },
+      {
+        "name": "Park Place",
+        "exact": 0.021863976,
+        "simulated": 0.021866,
+        "z": 0.06551,
+        "ci95_low": 0.021805446,
+        "ci95_high": 0.021926554
+      },
+      {
+        "name": "Luxury Tax",
+        "exact": 0.021798528,
+        "simulated": 0.02179485,
+        "z": -0.119,
+        "ci95_low": 0.021734252,
+        "ci95_high": 0.021855448
+      },
+      {
+        "name": "Boardwalk",
+        "exact": 0.026259634,
+        "simulated": 0.026223,
+        "z": -1.081,
+        "ci95_low": 0.026156576,
+        "ci95_high": 0.026289424
+      },
+      {
+        "name": "In Jail",
+        "exact": 0.039499756,
+        "simulated": 0.03950515,
+        "z": 0.1241,
+        "ci95_low": 0.03941998,
+        "ci95_high": 0.03959032
+      }
+    ]
+  }
+}

@@ -1,0 +1,2064 @@
+{
+  "stay": {
+    "opponents": 3,
+    "ranking_3_houses": [
+      {
+        "rank": 1,
+        "group": "orange",
+        "investment": 1460,
+        "rent_per_opponent_turn": 54.9273,
+        "rent_per_round": 164.782,
+        "payback_rounds": 8.8602,
+        "payback_opponent_turns": 26.5806
+      },
+      {
+        "rank": 2,
+        "group": "dark blue",
+        "investment": 1950,
+        "rent_per_opponent_turn": 67.0198,
+        "rent_per_round": 201.0594,
+        "payback_rounds": 9.6986,
+        "payback_opponent_turns": 29.0959
+      },
+      {
+        "rank": 3,
+        "group": "red",
+        "investment": 2030,
+        "rent_per_opponent_turn": 68.4808,
+        "rent_per_round": 205.4425,
+        "payback_rounds": 9.8811,
+        "payback_opponent_turns": 29.6433
+      },
+      {
+        "rank": 4,
+        "group": "yellow",
+        "investment": 2150,
+        "rent_per_opponent_turn": 71.3568,
+        "rent_per_round": 214.0705,
+        "payback_rounds": 10.0434,
+        "payback_opponent_turns": 30.1303
+      },
+      {
+        "rank": 5,
+        "group": "green",
+        "investment": 2720,
+        "rent_per_opponent_turn": 79.9722,
+        "rent_per_round": 239.9166,
+        "payback_rounds": 11.3373,
+        "payback_opponent_turns": 34.0118
+      },
+      {
+        "rank": 6,
+        "group": "pink",
+        "investment": 1340,
+        "rent_per_opponent_turn": 38.9833,
+        "rent_per_round": 116.9499,
+        "payback_rounds": 11.4579,
+        "payback_opponent_turns": 34.3737
+      },
+      {
+        "rank": 7,
+        "group": "light blue",
+        "investment": 770,
+        "rent_per_opponent_turn": 21.2086,
+        "rent_per_round": 63.6258,
+        "payback_rounds": 12.102,
+        "payback_opponent_turns": 36.306
+      },
+      {
+        "rank": 8,
+        "group": "brown",
+        "investment": 420,
+        "rent_per_opponent_turn": 6.3898,
+        "rent_per_round": 19.1694,
+        "payback_rounds": 21.9099,
+        "payback_opponent_turns": 65.7296
+      }
+    ],
+    "ranking_hotel": [
+      {
+        "rank": 1,
+        "group": "orange",
+        "investment": 2060,
+        "rent_per_opponent_turn": 93.6825,
+        "rent_per_round": 281.0475,
+        "payback_rounds": 7.3297,
+        "payback_opponent_turns": 21.9892
+      },
+      {
+        "rank": 2,
+        "group": "light blue",
+        "investment": 1070,
+        "rent_per_opponent_turn": 42.9214,
+        "rent_per_round": 128.7643,
+        "payback_rounds": 8.3098,
+        "payback_opponent_turns": 24.9293
+      },
+      {
+        "rank": 3,
+        "group": "red",
+        "investment": 2930,
+        "rent_per_opponent_turn": 101.8482,
+        "rent_per_round": 305.5445,
+        "payback_rounds": 9.5894,
+        "payback_opponent_turns": 28.7683
+      },
+      {
+        "rank": 4,
+        "group": "pink",
+        "investment": 1940,
+        "rent_per_opponent_turn": 66.8573,
+        "rent_per_round": 200.5718,
+        "payback_rounds": 9.6723,
+        "payback_opponent_turns": 29.017
+      },
+      {
+        "rank": 5,
+        "group": "dark blue",
+        "investment": 2750,
+        "rent_per_opponent_turn": 94.0257,
+        "rent_per_round": 282.0771,
+        "payback_rounds": 9.7491,
+        "payback_opponent_turns": 29.2473
+      },
+      {
+        "rank": 6,
+        "group": "yellow",
+        "investment": 3050,
+        "rent_per_opponent_turn": 101.9535,
+        "rent_per_round": 305.8605,
+        "payback_rounds": 9.9719,
+        "payback_opponent_turns": 29.9156
+      },
+      {
+        "rank": 7,
+        "group": "green",
+        "investment": 3920,
+        "rent_per_opponent_turn": 112.8358,
+        "rent_per_round": 338.5075,
+        "payback_rounds": 11.5802,
+        "payback_opponent_turns": 34.7407
+      },
+      {
+        "rank": 8,
+        "group": "brown",
+        "investment": 620,
+        "rent_per_opponent_turn": 16.5604,
+        "rent_per_round": 49.6812,
+        "payback_rounds": 12.4796,
+        "payback_opponent_turns": 37.4387
+      }
+    ],
+    "best_marginal_build_step": {
+      "brown": "hotel",
+      "light blue": "3 houses",
+      "pink": "3 houses",
+      "orange": "3 houses",
+      "red": "3 houses",
+      "yellow": "3 houses",
+      "green": "3 houses",
+      "dark blue": "3 houses"
+    },
+    "groups": [
+      {
+        "group": "brown",
+        "properties": [
+          "Mediterranean Avenue",
+          "Baltic Avenue"
+        ],
+        "lot_prices": 120,
+        "house_cost": 50,
+        "landings_per_opponent_turn": {
+          "Mediterranean Avenue": 0.02343485226697724,
+          "Baltic Avenue": 0.023781539384934155
+        },
+        "group_landings_per_opponent_turn": 0.047216391651911396,
+        "levels": [
+          {
+            "level": 0,
+            "name": "full set, no houses",
+            "investment": 120,
+            "rent_per_opponent_turn": 0.2839917241473822,
+            "rent_per_round": 0.8519751724421467,
+            "payback_rounds": 140.84917481342285,
+            "payback_opponent_turns": 422.5475244402686
+          },
+          {
+            "level": 1,
+            "name": "1 house",
+            "investment": 220,
+            "rent_per_opponent_turn": 0.7099793103684555,
+            "rent_per_round": 2.1299379311053666,
+            "payback_rounds": 103.28939486317677,
+            "payback_opponent_turns": 309.8681845895303
+          },
+          {
+            "level": 2,
+            "name": "2 houses",
+            "investment": 320,
+            "rent_per_opponent_turn": 2.1299379311053666,
+            "rent_per_round": 6.389813793316099,
+            "payback_rounds": 50.07970660032813,
+            "payback_opponent_turns": 150.23911980098438
+          },
+          {
+            "level": 3,
+            "name": "3 houses",
+            "investment": 420,
+            "rent_per_opponent_turn": 6.3898137933161,
+            "rent_per_round": 19.1694413799483,
+            "payback_rounds": 21.909871637643555,
+            "payback_opponent_turns": 65.72961491293067
+          },
+          {
+            "level": 4,
+            "name": "4 houses",
+            "investment": 520,
+            "rent_per_opponent_turn": 11.359668965895288,
+            "rent_per_round": 34.079006897685865,
+            "payback_rounds": 15.258660604787478,
+            "payback_opponent_turns": 45.77598181436243
+          },
+          {
+            "level": 5,
+            "name": "hotel",
+            "investment": 620,
+            "rent_per_opponent_turn": 16.56040578996468,
+            "rent_per_round": 49.68121736989404,
+            "payback_rounds": 12.47956537344653,
+            "payback_opponent_turns": 37.43869612033959
+          }
+        ],
+        "marginal": [
+          {
+            "to_level": 1,
+            "name": "1 house",
+            "extra_cost": 100,
+            "extra_rent_per_round": 1.2779627586632198,
+            "payback_rounds": 78.24954156301271
+          },
+          {
+            "to_level": 2,
+            "name": "2 houses",
+            "extra_cost": 100,
+            "extra_rent_per_round": 4.259875862210732,
+            "payback_rounds": 23.474862468903815
+          },
+          {
+            "to_level": 3,
+            "name": "3 houses",
+            "extra_cost": 100,
+            "extra_rent_per_round": 12.7796275866322,
+            "payback_rounds": 7.82495415630127
+          },
+          {
+            "to_level": 4,
+            "name": "4 houses",
+            "extra_cost": 100,
+            "extra_rent_per_round": 14.909565517737565,
+            "payback_rounds": 6.707103562543947
+          },
+          {
+            "to_level": 5,
+            "name": "hotel",
+            "extra_cost": 100,
+            "extra_rent_per_round": 15.602210472208178,
+            "payback_rounds": 6.409348225248433
+          }
+        ]
+      },
+      {
+        "group": "light blue",
+        "properties": [
+          "Oriental Avenue",
+          "Vermont Avenue",
+          "Connecticut Avenue"
+        ],
+        "lot_prices": 320,
+        "house_cost": 50,
+        "landings_per_opponent_turn": {
+          "Oriental Avenue": 0.024886923752607357,
+          "Vermont Avenue": 0.02553712985442343,
+          "Connecticut Avenue": 0.02531367511190801
+        },
+        "group_landings_per_opponent_turn": 0.0757377287189388,
+        "levels": [
+          {
+            "level": 0,
+            "name": "full set, no houses",
+            "investment": 320,
+            "rent_per_opponent_turn": 1.0101074450748975,
+            "rent_per_round": 3.0303223352246924,
+            "payback_rounds": 105.59932726637565,
+            "payback_opponent_turns": 316.79798179912694
+          },
+          {
+            "level": 1,
+            "name": "1 house",
+            "investment": 470,
+            "rent_per_opponent_turn": 2.525268612687244,
+            "rent_per_round": 7.575805838061733,
+            "payback_rounds": 62.03960476899568,
+            "payback_opponent_turns": 186.11881430698705
+          },
+          {
+            "level": 2,
+            "name": "2 houses",
+            "investment": 620,
+            "rent_per_opponent_turn": 7.069532335823572,
+            "rent_per_round": 21.208597007470715,
+            "payback_rounds": 29.23342830181579,
+            "payback_opponent_turns": 87.70028490544735
+          },
+          {
+            "level": 3,
+            "name": "3 houses",
+            "investment": 770,
+            "rent_per_opponent_turn": 21.208597007470715,
+            "rent_per_round": 63.625791022412145,
+            "payback_rounds": 12.102010641074278,
+            "payback_opponent_turns": 36.30603192322283
+          },
+          {
+            "level": 4,
+            "name": "4 houses",
+            "investment": 920,
+            "rent_per_opponent_turn": 31.56077524317092,
+            "rent_per_round": 94.68232572951275,
+            "payback_rounds": 9.7167025937686,
+            "payback_opponent_turns": 29.1501077813058
+          },
+          {
+            "level": 5,
+            "name": "hotel",
+            "investment": 1070,
+            "rent_per_opponent_turn": 42.92143455101174,
+            "rent_per_round": 128.76430365303523,
+            "payback_rounds": 8.30975642817277,
+            "payback_opponent_turns": 24.92926928451831
+          }
+        ],
+        "marginal": [
+          {
+            "to_level": 1,
+            "name": "1 house",
+            "extra_cost": 150,
+            "extra_rent_per_round": 4.54548350283704,
+            "payback_rounds": 32.99978977074238
+          },
+          {
+            "to_level": 2,
+            "name": "2 houses",
+            "extra_cost": 150,
+            "extra_rent_per_round": 13.632791169408982,
+            "payback_rounds": 11.002882545181897
+          },
+          {
+            "to_level": 3,
+            "name": "3 houses",
+            "extra_cost": 150,
+            "extra_rent_per_round": 42.41719401494143,
+            "payback_rounds": 3.5363018107035225
+          },
+          {
+            "to_level": 4,
+            "name": "4 houses",
+            "extra_cost": 150,
+            "extra_rent_per_round": 31.05653470710061,
+            "payback_rounds": 4.829901385156946
+          },
+          {
+            "to_level": 5,
+            "name": "hotel",
+            "extra_cost": 150,
+            "extra_rent_per_round": 34.08197792352247,
+            "payback_rounds": 4.4011530180727565
+          }
+        ]
+      },
+      {
+        "group": "pink",
+        "properties": [
+          "St. Charles Place",
+          "States Avenue",
+          "Virginia Avenue"
+        ],
+        "lot_prices": 440,
+        "house_cost": 100,
+        "landings_per_opponent_turn": {
+          "St. Charles Place": 0.02984172515277483,
+          "States Avenue": 0.02536990789770168,
+          "Virginia Avenue": 0.02827613962707675
+        },
+        "group_landings_per_opponent_turn": 0.08348777267755325,
+        "levels": [
+          {
+            "level": 0,
+            "name": "full set, no houses",
+            "investment": 440,
+            "rent_per_opponent_turn": 1.7828600120593723,
+            "rent_per_round": 5.348580036178117,
+            "payback_rounds": 82.26482487385691,
+            "payback_opponent_turns": 246.7944746215707
+          },
+          {
+            "level": 1,
+            "name": "1 house",
+            "investment": 740,
+            "rent_per_opponent_turn": 4.45715003014843,
+            "rent_per_round": 13.37145009044529,
+            "payback_rounds": 55.34179127877647,
+            "payback_opponent_turns": 166.0253738363294
+          },
+          {
+            "level": 2,
+            "name": "2 houses",
+            "investment": 1040,
+            "rent_per_opponent_turn": 13.371450090445292,
+            "rent_per_round": 40.11435027133587,
+            "payback_rounds": 25.925884202670055,
+            "payback_opponent_turns": 77.77765260801017
+          },
+          {
+            "level": 3,
+            "name": "3 houses",
+            "investment": 1340,
+            "rent_per_opponent_turn": 38.98330468625281,
+            "rent_per_round": 116.94991405875842,
+            "payback_rounds": 11.457896406206439,
+            "payback_opponent_turns": 34.37368921861932
+          },
+          {
+            "level": 4,
+            "name": "4 houses",
+            "investment": 1640,
+            "rent_per_opponent_turn": 54.30056839550154,
+            "rent_per_round": 162.9017051865046,
+            "payback_rounds": 10.067420706998613,
+            "payback_opponent_turns": 30.202262120995837
+          },
+          {
+            "level": 5,
+            "name": "hotel",
+            "investment": 1940,
+            "rent_per_opponent_turn": 66.85725045222645,
+            "rent_per_round": 200.57175135667936,
+            "payback_rounds": 9.672349106380752,
+            "payback_opponent_turns": 29.017047319142257
+          }
+        ],
+        "marginal": [
+          {
+            "to_level": 1,
+            "name": "1 house",
+            "extra_cost": 300,
+            "extra_rent_per_round": 8.022870054267173,
+            "payback_rounds": 37.39310221538951
+          },
+          {
+            "to_level": 2,
+            "name": "2 houses",
+            "extra_cost": 300,
+            "extra_rent_per_round": 26.742900180890583,
+            "payback_rounds": 11.217930664616851
+          },
+          {
+            "to_level": 3,
+            "name": "3 houses",
+            "extra_cost": 300,
+            "extra_rent_per_round": 76.83556378742256,
+            "payback_rounds": 3.904441969476482
+          },
+          {
+            "to_level": 4,
+            "name": "4 houses",
+            "extra_cost": 300,
+            "extra_rent_per_round": 45.95179112774619,
+            "payback_rounds": 6.528581207335284
+          },
+          {
+            "to_level": 5,
+            "name": "hotel",
+            "extra_cost": 300,
+            "extra_rent_per_round": 37.67004617017474,
+            "payback_rounds": 7.963887239339913
+          }
+        ]
+      },
+      {
+        "group": "orange",
+        "properties": [
+          "St. James Place",
+          "Tennessee Avenue",
+          "New York Avenue"
+        ],
+        "lot_prices": 560,
+        "house_cost": 100,
+        "landings_per_opponent_turn": {
+          "St. James Place": 0.03123341531060838,
+          "Tennessee Avenue": 0.032874594128961966,
+          "New York Avenue": 0.03277990168605415
+        },
+        "group_landings_per_opponent_turn": 0.0968879111256245,
+        "levels": [
+          {
+            "level": 0,
+            "name": "full set, no houses",
+            "investment": 560,
+            "rent_per_opponent_turn": 2.8439811182617025,
+            "rent_per_round": 8.531943354785108,
+            "payback_rounds": 65.63569127377365,
+            "payback_opponent_turns": 196.90707382132095
+          },
+          {
+            "level": 1,
+            "name": "1 house",
+            "investment": 860,
+            "rent_per_opponent_turn": 7.109952795654257,
+            "rent_per_round": 21.32985838696277,
+            "payback_rounds": 40.319067496746676,
+            "payback_opponent_turns": 120.95720249024001
+          },
+          {
+            "level": 2,
+            "name": "2 houses",
+            "investment": 1160,
+            "rent_per_opponent_turn": 20.03318025884598,
+            "rent_per_round": 60.09954077653794,
+            "payback_rounds": 19.301312206579265,
+            "payback_opponent_turns": 57.90393661973779
+          },
+          {
+            "level": 3,
+            "name": "3 houses",
+            "investment": 1460,
+            "rent_per_opponent_turn": 54.92734620339618,
+            "rent_per_round": 164.78203861018855,
+            "payback_rounds": 8.860188964246298,
+            "payback_opponent_turns": 26.580566892738894
+          },
+          {
+            "level": 4,
+            "name": "4 houses",
+            "investment": 1760,
+            "rent_per_opponent_turn": 74.30492842852108,
+            "rent_per_round": 222.91478528556326,
+            "payback_rounds": 7.895393738667292,
+            "payback_opponent_turns": 23.686181216001877
+          },
+          {
+            "level": 5,
+            "name": "hotel",
+            "investment": 2060,
+            "rent_per_opponent_turn": 93.68251065364598,
+            "rent_per_round": 281.04753196093793,
+            "payback_rounds": 7.329721010630736,
+            "payback_opponent_turns": 21.989163031892208
+          }
+        ],
+        "marginal": [
+          {
+            "to_level": 1,
+            "name": "1 house",
+            "extra_cost": 300,
+            "extra_rent_per_round": 12.797915032177661,
+            "payback_rounds": 23.44131831206202
+          },
+          {
+            "to_level": 2,
+            "name": "2 houses",
+            "extra_cost": 300,
+            "extra_rent_per_round": 38.76968238957517,
+            "payback_rounds": 7.73800509855782
+          },
+          {
+            "to_level": 3,
+            "name": "3 houses",
+            "extra_cost": 300,
+            "extra_rent_per_round": 104.68249783365061,
+            "payback_rounds": 2.8658085755340448
+          },
+          {
+            "to_level": 4,
+            "name": "4 houses",
+            "extra_cost": 300,
+            "extra_rent_per_round": 58.132746675374705,
+            "payback_rounds": 5.1606025374177165
+          },
+          {
+            "to_level": 5,
+            "name": "hotel",
+            "extra_cost": 300,
+            "extra_rent_per_round": 58.132746675374676,
+            "payback_rounds": 5.160602537417718
+          }
+        ]
+      },
+      {
+        "group": "red",
+        "properties": [
+          "Kentucky Avenue",
+          "Indiana Avenue",
+          "Illinois Avenue"
+        ],
+        "lot_prices": 680,
+        "house_cost": 150,
+        "landings_per_opponent_turn": {
+          "Kentucky Avenue": 0.03047902966789715,
+          "Indiana Avenue": 0.029931816269266345,
+          "Illinois Avenue": 0.034924332785281946
+        },
+        "group_landings_per_opponent_turn": 0.09533517872244543,
+        "levels": [
+          {
+            "level": 0,
+            "name": "full set, no houses",
+            "investment": 680,
+            "rent_per_opponent_turn": 3.5717637651491634,
+            "rent_per_round": 10.71529129544749,
+            "payback_rounds": 63.460710609790475,
+            "payback_opponent_turns": 190.38213182937142
+          },
+          {
+            "level": 1,
+            "name": "1 house",
+            "investment": 1130,
+            "rent_per_opponent_turn": 8.929409412872909,
+            "rent_per_round": 26.78822823861873,
+            "payback_rounds": 42.18270764062542,
+            "payback_opponent_turns": 126.54812292187628
+          },
+          {
+            "level": 2,
+            "name": "2 houses",
+            "investment": 1580,
+            "rent_per_opponent_turn": 25.580011319875457,
+            "rent_per_round": 76.74003395962637,
+            "payback_rounds": 20.588992713128746,
+            "payback_opponent_turns": 61.76697813938625
+          },
+          {
+            "level": 3,
+            "name": "3 houses",
+            "investment": 2030,
+            "rent_per_opponent_turn": 68.4808417449759,
+            "rent_per_round": 205.4425252349277,
+            "payback_rounds": 9.88110907261607,
+            "payback_opponent_turns": 29.643327217848206
+          },
+          {
+            "level": 4,
+            "name": "4 houses",
+            "investment": 2480,
+            "rent_per_opponent_turn": 85.16449802140386,
+            "rent_per_round": 255.49349406421157,
+            "payback_rounds": 9.706705092759494,
+            "payback_opponent_turns": 29.120115278278483
+          },
+          {
+            "level": 5,
+            "name": "hotel",
+            "investment": 2930,
+            "rent_per_opponent_turn": 101.84815429783181,
+            "rent_per_round": 305.54446289349545,
+            "payback_rounds": 9.589439036966999,
+            "payback_opponent_turns": 28.768317110901
+          }
+        ],
+        "marginal": [
+          {
+            "to_level": 1,
+            "name": "1 house",
+            "extra_cost": 450,
+            "extra_rent_per_round": 16.07293694317124,
+            "payback_rounds": 27.99737232784873
+          },
+          {
+            "to_level": 2,
+            "name": "2 houses",
+            "extra_cost": 450,
+            "extra_rent_per_round": 49.951805721007645,
+            "payback_rounds": 9.0086833399648
+          },
+          {
+            "to_level": 3,
+            "name": "3 houses",
+            "extra_cost": 450,
+            "extra_rent_per_round": 128.70249127530133,
+            "payback_rounds": 3.496435815196666
+          },
+          {
+            "to_level": 4,
+            "name": "4 houses",
+            "extra_cost": 450,
+            "extra_rent_per_round": 50.050968829283875,
+            "payback_rounds": 8.990834953362851
+          },
+          {
+            "to_level": 5,
+            "name": "hotel",
+            "extra_cost": 450,
+            "extra_rent_per_round": 50.050968829283875,
+            "payback_rounds": 8.990834953362851
+          }
+        ]
+      },
+      {
+        "group": "yellow",
+        "properties": [
+          "Atlantic Avenue",
+          "Ventnor Avenue",
+          "Marvin Gardens"
+        ],
+        "lot_prices": 800,
+        "house_cost": 150,
+        "landings_per_opponent_turn": {
+          "Atlantic Avenue": 0.029614748258164812,
+          "Ventnor Avenue": 0.02937127724324241,
+          "Marvin Gardens": 0.028432975863703535
+        },
+        "group_landings_per_opponent_turn": 0.08741900136511076,
+        "levels": [
+          {
+            "level": 0,
+            "name": "full set, no houses",
+            "investment": 800,
+            "rent_per_opponent_turn": 3.9601679635196874,
+            "rent_per_round": 11.880503890559062,
+            "payback_rounds": 67.3372112302178,
+            "payback_opponent_turns": 202.0116336906534
+          },
+          {
+            "level": 1,
+            "name": "1 house",
+            "investment": 1250,
+            "rent_per_opponent_turn": 9.900419908799218,
+            "rent_per_round": 29.701259726397655,
+            "payback_rounds": 42.08575701888613,
+            "payback_opponent_turns": 126.25727105665838
+          },
+          {
+            "level": 2,
+            "name": "2 houses",
+            "investment": 1700,
+            "rent_per_opponent_turn": 29.701259726397655,
+            "rent_per_round": 89.10377917919297,
+            "payback_rounds": 19.078876515228377,
+            "payback_opponent_turns": 57.23662954568513
+          },
+          {
+            "level": 3,
+            "name": "3 houses",
+            "investment": 2150,
+            "rent_per_opponent_turn": 71.35684988527379,
+            "rent_per_round": 214.07054965582137,
+            "payback_rounds": 10.04341794542374,
+            "payback_opponent_turns": 30.13025383627122
+          },
+          {
+            "level": 4,
+            "name": "4 houses",
+            "investment": 2600,
+            "rent_per_opponent_turn": 86.65517512416817,
+            "rent_per_round": 259.9655253725045,
+            "payback_rounds": 10.001326123048282,
+            "payback_opponent_turns": 30.003978369144843
+          },
+          {
+            "level": 5,
+            "name": "hotel",
+            "investment": 3050,
+            "rent_per_opponent_turn": 101.95350036306255,
+            "rent_per_round": 305.86050108918766,
+            "payback_rounds": 9.971866223780992,
+            "payback_opponent_turns": 29.91559867134298
+          }
+        ],
+        "marginal": [
+          {
+            "to_level": 1,
+            "name": "1 house",
+            "extra_cost": 450,
+            "extra_rent_per_round": 17.820755835838593,
+            "payback_rounds": 25.251454211331676
+          },
+          {
+            "to_level": 2,
+            "name": "2 houses",
+            "extra_cost": 450,
+            "extra_rent_per_round": 59.40251945279532,
+            "payback_rounds": 7.575436263399502
+          },
+          {
+            "to_level": 3,
+            "name": "3 houses",
+            "extra_cost": 450,
+            "extra_rent_per_round": 124.9667704766284,
+            "payback_rounds": 3.600957264748713
+          },
+          {
+            "to_level": 4,
+            "name": "4 houses",
+            "extra_cost": 450,
+            "extra_rent_per_round": 45.89497571668312,
+            "payback_rounds": 9.804994838169662
+          },
+          {
+            "to_level": 5,
+            "name": "hotel",
+            "extra_cost": 450,
+            "extra_rent_per_round": 45.89497571668318,
+            "payback_rounds": 9.80499483816965
+          }
+        ]
+      },
+      {
+        "group": "green",
+        "properties": [
+          "Pacific Avenue",
+          "North Carolina Avenue",
+          "Pennsylvania Avenue"
+        ],
+        "lot_prices": 920,
+        "house_cost": 200,
+        "landings_per_opponent_turn": {
+          "Pacific Avenue": 0.02943789334493166,
+          "North Carolina Avenue": 0.02887833643688489,
+          "Pennsylvania Avenue": 0.027487591296348916
+        },
+        "group_landings_per_opponent_turn": 0.08580382107816548,
+        "levels": [
+          {
+            "level": 0,
+            "name": "full set, no houses",
+            "investment": 920,
+            "rent_per_opponent_turn": 4.571749061249999,
+            "rent_per_round": 13.715247183749998,
+            "payback_rounds": 67.07863064181795,
+            "payback_opponent_turns": 201.23589192545387
+          },
+          {
+            "level": 1,
+            "name": "1 house",
+            "investment": 1520,
+            "rent_per_opponent_turn": 11.704248566088488,
+            "rent_per_round": 35.11274569826546,
+            "payback_rounds": 43.28912392843965,
+            "payback_opponent_turns": 129.86737178531897
+          },
+          {
+            "level": 2,
+            "name": "2 houses",
+            "investment": 2120,
+            "rent_per_opponent_turn": 35.11274569826547,
+            "rent_per_round": 105.33823709479641,
+            "payback_rounds": 20.125645335151766,
+            "payback_opponent_turns": 60.37693600545529
+          },
+          {
+            "level": 3,
+            "name": "3 houses",
+            "investment": 2720,
+            "rent_per_opponent_turn": 79.97219809998381,
+            "rent_per_round": 239.91659429995144,
+            "payback_rounds": 11.33727330506938,
+            "payback_opponent_turns": 34.011819915208136
+          },
+          {
+            "level": 4,
+            "name": "4 houses",
+            "investment": 3320,
+            "rent_per_opponent_turn": 97.13296231561691,
+            "rent_per_round": 291.3988869468507,
+            "payback_rounds": 11.393317369141313,
+            "payback_opponent_turns": 34.17995210742394
+          },
+          {
+            "level": 5,
+            "name": "hotel",
+            "investment": 3920,
+            "rent_per_opponent_turn": 112.83582078670457,
+            "rent_per_round": 338.5074623601137,
+            "payback_rounds": 11.58024692474813,
+            "payback_opponent_turns": 34.74074077424439
+          }
+        ],
+        "marginal": [
+          {
+            "to_level": 1,
+            "name": "1 house",
+            "extra_cost": 600,
+            "extra_rent_per_round": 21.397498514515465,
+            "payback_rounds": 28.040660902159978
+          },
+          {
+            "to_level": 2,
+            "name": "2 houses",
+            "extra_cost": 600,
+            "extra_rent_per_round": 70.22549139653094,
+            "payback_rounds": 8.543906038507824
+          },
+          {
+            "to_level": 3,
+            "name": "3 houses",
+            "extra_cost": 600,
+            "extra_rent_per_round": 134.57835720515504,
+            "payback_rounds": 4.458369179565352
+          },
+          {
+            "to_level": 4,
+            "name": "4 houses",
+            "extra_cost": 600,
+            "extra_rent_per_round": 51.48229264689928,
+            "payback_rounds": 11.65449262555593
+          },
+          {
+            "to_level": 5,
+            "name": "hotel",
+            "extra_cost": 600,
+            "extra_rent_per_round": 47.108575413263,
+            "payback_rounds": 12.736534584976548
+          }
+        ]
+      },
+      {
+        "group": "dark blue",
+        "properties": [
+          "Park Place",
+          "Boardwalk"
+        ],
+        "lot_prices": 750,
+        "house_cost": 200,
+        "landings_per_opponent_turn": {
+          "Park Place": 0.024036342820128453,
+          "Boardwalk": 0.028985585683413882
+        },
+        "group_landings_per_opponent_turn": 0.053021928503542336,
+        "levels": [
+          {
+            "level": 0,
+            "name": "full set, no houses",
+            "investment": 750,
+            "rent_per_opponent_turn": 4.581102565750379,
+            "rent_per_round": 13.743307697251138,
+            "payback_rounds": 54.57201545083728,
+            "payback_opponent_turns": 163.71604635251182
+          },
+          {
+            "level": 1,
+            "name": "1 house",
+            "investment": 1150,
+            "rent_per_opponent_turn": 10.003477130205255,
+            "rent_per_round": 30.010431390615764,
+            "payback_rounds": 38.32000896726876,
+            "payback_opponent_turns": 114.96002690180629
+          },
+          {
+            "level": 2,
+            "name": "2 houses",
+            "investment": 1550,
+            "rent_per_opponent_turn": 29.409522820112556,
+            "rent_per_round": 88.22856846033767,
+            "payback_rounds": 17.56800577237959,
+            "payback_opponent_turns": 52.70401731713877
+          },
+          {
+            "level": 3,
+            "name": "3 houses",
+            "investment": 1950,
+            "rent_per_opponent_turn": 67.01979705892074,
+            "rent_per_round": 201.05939117676223,
+            "payback_rounds": 9.698626801697857,
+            "payback_opponent_turns": 29.095880405093574
+          },
+          {
+            "level": 4,
+            "name": "4 houses",
+            "investment": 2350,
+            "rent_per_opponent_turn": 80.52274132797059,
+            "rent_per_round": 241.56822398391176,
+            "payback_rounds": 9.728100663423795,
+            "payback_opponent_turns": 29.184301990271383
+          },
+          {
+            "level": 5,
+            "name": "hotel",
+            "investment": 2750,
+            "rent_per_opponent_turn": 94.02568559702044,
+            "rent_per_round": 282.0770567910613,
+            "payback_rounds": 9.749109095522668,
+            "payback_opponent_turns": 29.247327286568
+          }
+        ],
+        "marginal": [
+          {
+            "to_level": 1,
+            "name": "1 house",
+            "extra_cost": 400,
+            "extra_rent_per_round": 16.267123693364624,
+            "payback_rounds": 24.589473070962164
+          },
+          {
+            "to_level": 2,
+            "name": "2 houses",
+            "extra_cost": 400,
+            "extra_rent_per_round": 58.218137069721905,
+            "payback_rounds": 6.870711089929946
+          },
+          {
+            "to_level": 3,
+            "name": "3 houses",
+            "extra_cost": 400,
+            "extra_rent_per_round": 112.83082271642456,
+            "payback_rounds": 3.54513058019006
+          },
+          {
+            "to_level": 4,
+            "name": "4 houses",
+            "extra_cost": 400,
+            "extra_rent_per_round": 40.50883280714953,
+            "payback_rounds": 9.874389664700553
+          },
+          {
+            "to_level": 5,
+            "name": "hotel",
+            "extra_cost": 400,
+            "extra_rent_per_round": 40.50883280714953,
+            "payback_rounds": 9.874389664700553
+          }
+        ]
+      }
+    ]
+  },
+  "leave_early": {
+    "opponents": 3,
+    "ranking_3_houses": [
+      {
+        "rank": 1,
+        "group": "orange",
+        "investment": 1460,
+        "rent_per_opponent_turn": 59.349,
+        "rent_per_round": 178.0471,
+        "payback_rounds": 8.2001,
+        "payback_opponent_turns": 24.6002
+      },
+      {
+        "rank": 2,
+        "group": "dark blue",
+        "investment": 1950,
+        "rent_per_opponent_turn": 72.1632,
+        "rent_per_round": 216.4896,
+        "payback_rounds": 9.0074,
+        "payback_opponent_turns": 27.0221
+      },
+      {
+        "rank": 3,
+        "group": "red",
+        "investment": 2030,
+        "rent_per_opponent_turn": 74.6315,
+        "rent_per_round": 223.8944,
+        "payback_rounds": 9.0668,
+        "payback_opponent_turns": 27.2003
+      },
+      {
+        "rank": 4,
+        "group": "yellow",
+        "investment": 2150,
+        "rent_per_opponent_turn": 77.2135,
+        "rent_per_round": 231.6405,
+        "payback_rounds": 9.2816,
+        "payback_opponent_turns": 27.8449
+      },
+      {
+        "rank": 5,
+        "group": "green",
+        "investment": 2720,
+        "rent_per_opponent_turn": 86.3022,
+        "rent_per_round": 258.9065,
+        "payback_rounds": 10.5057,
+        "payback_opponent_turns": 31.5172
+      },
+      {
+        "rank": 6,
+        "group": "pink",
+        "investment": 1340,
+        "rent_per_opponent_turn": 41.7173,
+        "rent_per_round": 125.152,
+        "payback_rounds": 10.707,
+        "payback_opponent_turns": 32.121
+      },
+      {
+        "rank": 7,
+        "group": "light blue",
+        "investment": 770,
+        "rent_per_opponent_turn": 22.8726,
+        "rent_per_round": 68.6179,
+        "payback_rounds": 11.2216,
+        "payback_opponent_turns": 33.6647
+      },
+      {
+        "rank": 8,
+        "group": "brown",
+        "investment": 420,
+        "rent_per_opponent_turn": 6.895,
+        "rent_per_round": 20.6849,
+        "payback_rounds": 20.3047,
+        "payback_opponent_turns": 60.9141
+      }
+    ],
+    "ranking_hotel": [
+      {
+        "rank": 1,
+        "group": "orange",
+        "investment": 2060,
+        "rent_per_opponent_turn": 101.1807,
+        "rent_per_round": 303.5421,
+        "payback_rounds": 6.7865,
+        "payback_opponent_turns": 20.3596
+      },
+      {
+        "rank": 2,
+        "group": "light blue",
+        "investment": 1070,
+        "rent_per_opponent_turn": 46.2891,
+        "rent_per_round": 138.8673,
+        "payback_rounds": 7.7052,
+        "payback_opponent_turns": 23.1156
+      },
+      {
+        "rank": 3,
+        "group": "red",
+        "investment": 2930,
+        "rent_per_opponent_turn": 111.0021,
+        "rent_per_round": 333.0064,
+        "payback_rounds": 8.7986,
+        "payback_opponent_turns": 26.3959
+      },
+      {
+        "rank": 4,
+        "group": "pink",
+        "investment": 1940,
+        "rent_per_opponent_turn": 71.4788,
+        "rent_per_round": 214.4364,
+        "payback_rounds": 9.047,
+        "payback_opponent_turns": 27.1409
+      },
+      {
+        "rank": 5,
+        "group": "dark blue",
+        "investment": 2750,
+        "rent_per_opponent_turn": 101.2371,
+        "rent_per_round": 303.7113,
+        "payback_rounds": 9.0547,
+        "payback_opponent_turns": 27.164
+      },
+      {
+        "rank": 6,
+        "group": "yellow",
+        "investment": 3050,
+        "rent_per_opponent_turn": 110.3232,
+        "rent_per_round": 330.9695,
+        "payback_rounds": 9.2154,
+        "payback_opponent_turns": 27.6461
+      },
+      {
+        "rank": 7,
+        "group": "green",
+        "investment": 3920,
+        "rent_per_opponent_turn": 121.7669,
+        "rent_per_round": 365.3006,
+        "payback_rounds": 10.7309,
+        "payback_opponent_turns": 32.1927
+      },
+      {
+        "rank": 8,
+        "group": "brown",
+        "investment": 620,
+        "rent_per_opponent_turn": 17.8697,
+        "rent_per_round": 53.609,
+        "payback_rounds": 11.5652,
+        "payback_opponent_turns": 34.6957
+      }
+    ],
+    "best_marginal_build_step": {
+      "brown": "hotel",
+      "light blue": "3 houses",
+      "pink": "3 houses",
+      "orange": "3 houses",
+      "red": "3 houses",
+      "yellow": "3 houses",
+      "green": "3 houses",
+      "dark blue": "3 houses"
+    },
+    "groups": [
+      {
+        "group": "brown",
+        "properties": [
+          "Mediterranean Avenue",
+          "Baltic Avenue"
+        ],
+        "lot_prices": 120,
+        "house_cost": 50,
+        "landings_per_opponent_turn": {
+          "Mediterranean Avenue": 0.02529143413294643,
+          "Baltic Avenue": 0.02565958246071593
+        },
+        "group_landings_per_opponent_turn": 0.05095101659366236,
+        "levels": [
+          {
+            "level": 0,
+            "name": "full set, no houses",
+            "investment": 120,
+            "rent_per_opponent_turn": 0.3064423962175132,
+            "rent_per_round": 0.9193271886525396,
+            "payback_rounds": 130.5302415518509,
+            "payback_opponent_turns": 391.5907246555527
+          },
+          {
+            "level": 1,
+            "name": "1 house",
+            "investment": 220,
+            "rent_per_opponent_turn": 0.7661059905437828,
+            "rent_per_round": 2.2983179716313487,
+            "payback_rounds": 95.72217713802401,
+            "payback_opponent_turns": 287.16653141407204
+          },
+          {
+            "level": 2,
+            "name": "2 houses",
+            "investment": 320,
+            "rent_per_opponent_turn": 2.2983179716313487,
+            "rent_per_round": 6.894953914894046,
+            "payback_rounds": 46.41075255176922,
+            "payback_opponent_turns": 139.23225765530765
+          },
+          {
+            "level": 3,
+            "name": "3 houses",
+            "investment": 420,
+            "rent_per_opponent_turn": 6.894953914894046,
+            "rent_per_round": 20.684861744682138,
+            "payback_rounds": 20.304704241399033,
+            "payback_opponent_turns": 60.914112724197096
+          },
+          {
+            "level": 4,
+            "name": "4 houses",
+            "investment": 520,
+            "rent_per_opponent_turn": 12.257695848700525,
+            "rent_per_round": 36.77308754610158,
+            "payback_rounds": 14.140776168117183,
+            "payback_opponent_turns": 42.422328504351555
+          },
+          {
+            "level": 5,
+            "name": "hotel",
+            "investment": 620,
+            "rent_per_opponent_turn": 17.869670640558777,
+            "rent_per_round": 53.60901192167633,
+            "payback_rounds": 11.565219685560153,
+            "payback_opponent_turns": 34.695659056680455
+          }
+        ],
+        "marginal": [
+          {
+            "to_level": 1,
+            "name": "1 house",
+            "extra_cost": 100,
+            "extra_rent_per_round": 1.378990782978809,
+            "payback_rounds": 72.5168008621394
+          },
+          {
+            "to_level": 2,
+            "name": "2 houses",
+            "extra_cost": 100,
+            "extra_rent_per_round": 4.596635943262697,
+            "payback_rounds": 21.75504025864182
+          },
+          {
+            "to_level": 3,
+            "name": "3 houses",
+            "extra_cost": 100,
+            "extra_rent_per_round": 13.789907829788092,
+            "payback_rounds": 7.25168008621394
+          },
+          {
+            "to_level": 4,
+            "name": "4 houses",
+            "extra_cost": 100,
+            "extra_rent_per_round": 16.08822580141944,
+            "payback_rounds": 6.215725788183377
+          },
+          {
+            "to_level": 5,
+            "name": "hotel",
+            "extra_cost": 100,
+            "extra_rent_per_round": 16.83592437557475,
+            "payback_rounds": 5.9396798042807895
+          }
+        ]
+      },
+      {
+        "group": "light blue",
+        "properties": [
+          "Oriental Avenue",
+          "Vermont Avenue",
+          "Connecticut Avenue"
+        ],
+        "lot_prices": 320,
+        "house_cost": 50,
+        "landings_per_opponent_turn": {
+          "Oriental Avenue": 0.026843091405065914,
+          "Vermont Avenue": 0.027541069459483602,
+          "Connecticut Avenue": 0.027296326341572696
+        },
+        "group_landings_per_opponent_turn": 0.08168048720612221,
+        "levels": [
+          {
+            "level": 0,
+            "name": "full set, no houses",
+            "investment": 320,
+            "rent_per_opponent_turn": 1.0893511518397574,
+            "rent_per_round": 3.268053455519272,
+            "payback_rounds": 97.91761498257198,
+            "payback_opponent_turns": 293.7528449477159
+          },
+          {
+            "level": 1,
+            "name": "1 house",
+            "investment": 470,
+            "rent_per_opponent_turn": 2.7233778795993935,
+            "rent_per_round": 8.17013363879818,
+            "payback_rounds": 57.526598802261034,
+            "payback_opponent_turns": 172.57979640678312
+          },
+          {
+            "level": 2,
+            "name": "2 houses",
+            "investment": 620,
+            "rent_per_opponent_turn": 7.624207111966726,
+            "rent_per_round": 22.872621335900178,
+            "payback_rounds": 27.106643829531976,
+            "payback_opponent_turns": 81.31993148859593
+          },
+          {
+            "level": 3,
+            "name": "3 houses",
+            "investment": 770,
+            "rent_per_opponent_turn": 22.872621335900178,
+            "rent_per_round": 68.61786400770053,
+            "payback_rounds": 11.22156760684926,
+            "payback_opponent_turns": 33.66470282054778
+          },
+          {
+            "level": 4,
+            "name": "4 houses",
+            "investment": 920,
+            "rent_per_opponent_turn": 34.03701119952752,
+            "rent_per_round": 102.11103359858257,
+            "payback_rounds": 9.0098000928743,
+            "payback_opponent_turns": 27.0294002786229
+          },
+          {
+            "level": 5,
+            "name": "hotel",
+            "investment": 1070,
+            "rent_per_opponent_turn": 46.28908428044585,
+            "rent_per_round": 138.86725284133755,
+            "payback_rounds": 7.70520031257856,
+            "payback_opponent_turns": 23.11560093773568
+          }
+        ],
+        "marginal": [
+          {
+            "to_level": 1,
+            "name": "1 house",
+            "extra_cost": 150,
+            "extra_rent_per_round": 4.902080183278908,
+            "payback_rounds": 30.599254682053743
+          },
+          {
+            "to_level": 2,
+            "name": "2 houses",
+            "extra_cost": 150,
+            "extra_rent_per_round": 14.702487697101997,
+            "payback_rounds": 10.202355076927999
+          },
+          {
+            "to_level": 3,
+            "name": "3 houses",
+            "extra_cost": 150,
+            "extra_rent_per_round": 45.745242671800355,
+            "payback_rounds": 3.2790294955079005
+          },
+          {
+            "to_level": 4,
+            "name": "4 houses",
+            "extra_cost": 150,
+            "extra_rent_per_round": 33.49316959088203,
+            "payback_rounds": 4.478525079359317
+          },
+          {
+            "to_level": 5,
+            "name": "hotel",
+            "extra_cost": 150,
+            "extra_rent_per_round": 36.75621924275498,
+            "payback_rounds": 4.080942030771201
+          }
+        ]
+      },
+      {
+        "group": "pink",
+        "properties": [
+          "St. Charles Place",
+          "States Avenue",
+          "Virginia Avenue"
+        ],
+        "lot_prices": 440,
+        "house_cost": 100,
+        "landings_per_opponent_turn": {
+          "St. Charles Place": 0.032058518943059236,
+          "States Avenue": 0.02814779172974945,
+          "Virginia Avenue": 0.02924895660801836
+        },
+        "group_landings_per_opponent_turn": 0.08945526728082705,
+        "levels": [
+          {
+            "level": 0,
+            "name": "full set, no houses",
+            "investment": 440,
+            "rent_per_opponent_turn": 1.9061011720486143,
+            "rent_per_round": 5.718303516145843,
+            "payback_rounds": 76.94589815976776,
+            "payback_opponent_turns": 230.8376944793033
+          },
+          {
+            "level": 1,
+            "name": "1 house",
+            "investment": 740,
+            "rent_per_opponent_turn": 4.765252930121536,
+            "rent_per_round": 14.295758790364607,
+            "payback_rounds": 51.763604216571046,
+            "payback_opponent_turns": 155.29081264971316
+          },
+          {
+            "level": 2,
+            "name": "2 houses",
+            "investment": 1040,
+            "rent_per_opponent_turn": 14.295758790364609,
+            "rent_per_round": 42.887276371093826,
+            "payback_rounds": 24.249616389744993,
+            "payback_opponent_turns": 72.74884916923497
+          },
+          {
+            "level": 3,
+            "name": "3 houses",
+            "investment": 1340,
+            "rent_per_opponent_turn": 41.71731810677309,
+            "rent_per_round": 125.15195432031928,
+            "payback_rounds": 10.70698421992154,
+            "payback_opponent_turns": 32.12095265976462
+          },
+          {
+            "level": 4,
+            "name": "4 houses",
+            "investment": 1640,
+            "rent_per_opponent_turn": 58.10321379611828,
+            "rent_per_round": 174.30964138835486,
+            "payback_rounds": 9.408544397989703,
+            "payback_opponent_turns": 28.225633193969106
+          },
+          {
+            "level": 5,
+            "name": "hotel",
+            "investment": 1940,
+            "rent_per_opponent_turn": 71.47879395182304,
+            "rent_per_round": 214.4363818554691,
+            "payback_rounds": 9.046972268481786,
+            "payback_opponent_turns": 27.14091680544536
+          }
+        ],
+        "marginal": [
+          {
+            "to_level": 1,
+            "name": "1 house",
+            "extra_cost": 300,
+            "extra_rent_per_round": 8.577455274218764,
+            "payback_rounds": 34.9754082544399
+          },
+          {
+            "to_level": 2,
+            "name": "2 houses",
+            "extra_cost": 300,
+            "extra_rent_per_round": 28.591517580729217,
+            "payback_rounds": 10.492622476331968
+          },
+          {
+            "to_level": 3,
+            "name": "3 houses",
+            "extra_cost": 300,
+            "extra_rent_per_round": 82.26467794922544,
+            "payback_rounds": 3.646765628684074
+          },
+          {
+            "to_level": 4,
+            "name": "4 houses",
+            "extra_cost": 300,
+            "extra_rent_per_round": 49.157687068035585,
+            "payback_rounds": 6.102809507387762
+          },
+          {
+            "to_level": 5,
+            "name": "hotel",
+            "extra_cost": 300,
+            "extra_rent_per_round": 40.126740467114246,
+            "payback_rounds": 7.476311220590273
+          }
+        ]
+      },
+      {
+        "group": "orange",
+        "properties": [
+          "St. James Place",
+          "Tennessee Avenue",
+          "New York Avenue"
+        ],
+        "lot_prices": 560,
+        "house_cost": 100,
+        "landings_per_opponent_turn": {
+          "St. James Place": 0.033135487406236896,
+          "Tennessee Avenue": 0.03483436038554538,
+          "New York Avenue": 0.03660935306538499
+        },
+        "group_landings_per_opponent_turn": 0.10457920085716726,
+        "levels": [
+          {
+            "level": 0,
+            "name": "full set, no houses",
+            "investment": 560,
+            "rent_per_opponent_turn": 3.0746550362622234,
+            "rent_per_round": 9.22396510878667,
+            "payback_rounds": 60.7114178550555,
+            "payback_opponent_turns": 182.13425356516652
+          },
+          {
+            "level": 1,
+            "name": "1 house",
+            "investment": 860,
+            "rent_per_opponent_turn": 7.686637590655559,
+            "rent_per_round": 23.05991277196668,
+            "payback_rounds": 37.29415668239123,
+            "payback_opponent_turns": 111.8824700471737
+          },
+          {
+            "level": 2,
+            "name": "2 houses",
+            "investment": 1160,
+            "rent_per_opponent_turn": 21.648027232741153,
+            "rent_per_round": 64.94408169822346,
+            "payback_rounds": 17.861519782359657,
+            "payback_opponent_turns": 53.584559347078965
+          },
+          {
+            "level": 3,
+            "name": "3 houses",
+            "investment": 1460,
+            "rent_per_opponent_turn": 59.349028124711246,
+            "rent_per_round": 178.04708437413373,
+            "payback_rounds": 8.20007811491074,
+            "payback_opponent_turns": 24.60023434473222
+          },
+          {
+            "level": 4,
+            "name": "4 houses",
+            "investment": 1760,
+            "rent_per_opponent_turn": 80.2648682961447,
+            "rent_per_round": 240.7946048884341,
+            "payback_rounds": 7.309133860434498,
+            "payback_opponent_turns": 21.927401581303496
+          },
+          {
+            "level": 5,
+            "name": "hotel",
+            "investment": 2060,
+            "rent_per_opponent_turn": 101.18070846757816,
+            "rent_per_round": 303.5421254027345,
+            "payback_rounds": 6.786537444405211,
+            "payback_opponent_turns": 20.359612333215637
+          }
+        ],
+        "marginal": [
+          {
+            "to_level": 1,
+            "name": "1 house",
+            "extra_cost": 300,
+            "extra_rent_per_round": 13.83594766318001,
+            "payback_rounds": 21.682649233948386
+          },
+          {
+            "to_level": 2,
+            "name": "2 houses",
+            "extra_cost": 300,
+            "extra_rent_per_round": 41.88416892625678,
+            "payback_rounds": 7.162610783281722
+          },
+          {
+            "to_level": 3,
+            "name": "3 houses",
+            "extra_cost": 300,
+            "extra_rent_per_round": 113.10300267591028,
+            "payback_rounds": 2.6524494743931037
+          },
+          {
+            "to_level": 4,
+            "name": "4 houses",
+            "extra_cost": 300,
+            "extra_rent_per_round": 62.74752051430036,
+            "payback_rounds": 4.781065411686332
+          },
+          {
+            "to_level": 5,
+            "name": "hotel",
+            "extra_cost": 300,
+            "extra_rent_per_round": 62.74752051430039,
+            "payback_rounds": 4.781065411686329
+          }
+        ]
+      },
+      {
+        "group": "red",
+        "properties": [
+          "Kentucky Avenue",
+          "Indiana Avenue",
+          "Illinois Avenue"
+        ],
+        "lot_prices": 680,
+        "house_cost": 150,
+        "landings_per_opponent_turn": {
+          "Kentucky Avenue": 0.03365079411360571,
+          "Indiana Avenue": 0.03246230317790931,
+          "Illinois Avenue": 0.03780306602008965
+        },
+        "group_landings_per_opponent_turn": 0.10391616331160466,
+        "levels": [
+          {
+            "level": 0,
+            "name": "full set, no houses",
+            "investment": 680,
+            "rent_per_opponent_turn": 3.892194143298127,
+            "rent_per_round": 11.676582429894381,
+            "payback_rounds": 58.2362180100801,
+            "payback_opponent_turns": 174.7086540302403
+          },
+          {
+            "level": 1,
+            "name": "1 house",
+            "investment": 1130,
+            "rent_per_opponent_turn": 9.730485358245318,
+            "rent_per_round": 29.191456074735953,
+            "payback_rounds": 38.70995667728854,
+            "payback_opponent_turns": 116.12987003186561
+          },
+          {
+            "level": 2,
+            "name": "2 houses",
+            "investment": 1580,
+            "rent_per_opponent_turn": 27.869194128905654,
+            "rent_per_round": 83.60758238671696,
+            "payback_rounds": 18.897807530086176,
+            "payback_opponent_turns": 56.69342259025852
+          },
+          {
+            "level": 3,
+            "name": "3 houses",
+            "investment": 2030,
+            "rent_per_opponent_turn": 74.63146761912776,
+            "rent_per_round": 223.89440285738328,
+            "payback_rounds": 9.066774220760998,
+            "payback_opponent_turns": 27.20032266228299
+          },
+          {
+            "level": 4,
+            "name": "4 houses",
+            "investment": 2480,
+            "rent_per_opponent_turn": 92.81679619865858,
+            "rent_per_round": 278.4503885959757,
+            "payback_rounds": 8.906433970176337,
+            "payback_opponent_turns": 26.719301910529012
+          },
+          {
+            "level": 5,
+            "name": "hotel",
+            "investment": 2930,
+            "rent_per_opponent_turn": 111.0021247781894,
+            "rent_per_round": 333.0063743345682,
+            "payback_rounds": 8.798630374132893,
+            "payback_opponent_turns": 26.39589112239868
+          }
+        ],
+        "marginal": [
+          {
+            "to_level": 1,
+            "name": "1 house",
+            "extra_cost": 450,
+            "extra_rent_per_round": 17.514873644841572,
+            "payback_rounds": 25.69244912209416
+          },
+          {
+            "to_level": 2,
+            "name": "2 houses",
+            "extra_cost": 450,
+            "extra_rent_per_round": 54.416126311981,
+            "payback_rounds": 8.269607384767514
+          },
+          {
+            "to_level": 3,
+            "name": "3 houses",
+            "extra_cost": 450,
+            "extra_rent_per_round": 140.28682047066633,
+            "payback_rounds": 3.207714013976773
+          },
+          {
+            "to_level": 4,
+            "name": "4 houses",
+            "extra_cost": 450,
+            "extra_rent_per_round": 54.555985738592426,
+            "payback_rounds": 8.248407464511708
+          },
+          {
+            "to_level": 5,
+            "name": "hotel",
+            "extra_cost": 450,
+            "extra_rent_per_round": 54.55598573859248,
+            "payback_rounds": 8.248407464511699
+          }
+        ]
+      },
+      {
+        "group": "yellow",
+        "properties": [
+          "Atlantic Avenue",
+          "Ventnor Avenue",
+          "Marvin Gardens"
+        ],
+        "lot_prices": 800,
+        "house_cost": 150,
+        "landings_per_opponent_turn": {
+          "Atlantic Avenue": 0.032124329189260455,
+          "Ventnor Avenue": 0.031787967216893497,
+          "Marvin Gardens": 0.030686675678121635
+        },
+        "group_landings_per_opponent_turn": 0.09459897208427559,
+        "levels": [
+          {
+            "level": 0,
+            "name": "full set, no houses",
+            "investment": 800,
+            "rent_per_opponent_turn": 4.285101474420612,
+            "rent_per_round": 12.855304423261837,
+            "payback_rounds": 62.23112060671156,
+            "payback_opponent_turns": 186.6933618201347
+          },
+          {
+            "level": 1,
+            "name": "1 house",
+            "investment": 1250,
+            "rent_per_opponent_turn": 10.712753686051531,
+            "rent_per_round": 32.1382610581546,
+            "payback_rounds": 38.89445037919472,
+            "payback_opponent_turns": 116.68335113758417
+          },
+          {
+            "level": 2,
+            "name": "2 houses",
+            "investment": 1700,
+            "rent_per_opponent_turn": 32.1382610581546,
+            "rent_per_round": 96.41478317446379,
+            "payback_rounds": 17.632150838568272,
+            "payback_opponent_turns": 52.89645251570482
+          },
+          {
+            "level": 3,
+            "name": "3 houses",
+            "investment": 2150,
+            "rent_per_opponent_turn": 77.21351145132655,
+            "rent_per_round": 231.64053435397966,
+            "payback_rounds": 9.281622519116167,
+            "payback_opponent_turns": 27.844867557348504
+          },
+          {
+            "level": 4,
+            "name": "4 houses",
+            "investment": 2600,
+            "rent_per_opponent_turn": 93.76833156607478,
+            "rent_per_round": 281.30499469822433,
+            "payback_rounds": 9.242637169628654,
+            "payback_opponent_turns": 27.727911508885967
+          },
+          {
+            "level": 5,
+            "name": "hotel",
+            "investment": 3050,
+            "rent_per_opponent_turn": 110.323151680823,
+            "rent_per_round": 330.969455042469,
+            "payback_rounds": 9.215351910975087,
+            "payback_opponent_turns": 27.646055732925262
+          }
+        ],
+        "marginal": [
+          {
+            "to_level": 1,
+            "name": "1 house",
+            "extra_cost": 450,
+            "extra_rent_per_round": 19.282956634892763,
+            "payback_rounds": 23.336670227516827
+          },
+          {
+            "to_level": 2,
+            "name": "2 houses",
+            "extra_cost": 450,
+            "extra_rent_per_round": 64.2765221163092,
+            "payback_rounds": 7.00100106825505
+          },
+          {
+            "to_level": 3,
+            "name": "3 houses",
+            "extra_cost": 450,
+            "extra_rent_per_round": 135.22575117951587,
+            "payback_rounds": 3.327768535762192
+          },
+          {
+            "to_level": 4,
+            "name": "4 houses",
+            "extra_cost": 450,
+            "extra_rent_per_round": 49.664460344244674,
+            "payback_rounds": 9.0608051890802
+          },
+          {
+            "to_level": 5,
+            "name": "hotel",
+            "extra_cost": 450,
+            "extra_rent_per_round": 49.664460344244674,
+            "payback_rounds": 9.0608051890802
+          }
+        ]
+      },
+      {
+        "group": "green",
+        "properties": [
+          "Pacific Avenue",
+          "North Carolina Avenue",
+          "Pennsylvania Avenue"
+        ],
+        "lot_prices": 920,
+        "house_cost": 200,
+        "landings_per_opponent_turn": {
+          "Pacific Avenue": 0.031770319518192494,
+          "North Carolina Avenue": 0.031150931890715945,
+          "Pennsylvania Avenue": 0.029673051050201665
+        },
+        "group_landings_per_opponent_turn": 0.09259430245911011,
+        "levels": [
+          {
+            "level": 0,
+            "name": "full set, no houses",
+            "investment": 920,
+            "rent_per_opponent_turn": 4.933595932074532,
+            "rent_per_round": 14.800787796223595,
+            "payback_rounds": 62.15885347905177,
+            "payback_opponent_turns": 186.4765604371553
+          },
+          {
+            "level": 1,
+            "name": "1 house",
+            "investment": 1520,
+            "rent_per_opponent_turn": 12.630720340688347,
+            "rent_per_round": 37.89216102206504,
+            "payback_rounds": 40.11383777016272,
+            "payback_opponent_turns": 120.34151331048814
+          },
+          {
+            "level": 2,
+            "name": "2 houses",
+            "investment": 2120,
+            "rent_per_opponent_turn": 37.89216102206504,
+            "rent_per_round": 113.67648306619512,
+            "payback_rounds": 18.649415805426525,
+            "payback_opponent_turns": 55.94824741627958
+          },
+          {
+            "level": 3,
+            "name": "3 houses",
+            "investment": 2720,
+            "rent_per_opponent_turn": 86.30217731821926,
+            "rent_per_round": 258.9065319546578,
+            "payback_rounds": 10.505721811902191,
+            "payback_opponent_turns": 31.517165435706573
+          },
+          {
+            "level": 4,
+            "name": "4 houses",
+            "investment": 3320,
+            "rent_per_opponent_turn": 104.82103781004128,
+            "rent_per_round": 314.4631134301238,
+            "payback_rounds": 10.557677063569907,
+            "payback_opponent_turns": 31.673031190709718
+          },
+          {
+            "level": 5,
+            "name": "hotel",
+            "investment": 3920,
+            "rent_per_opponent_turn": 121.76686701664059,
+            "rent_per_round": 365.30060104992174,
+            "payback_rounds": 10.7308884483995,
+            "payback_opponent_turns": 32.1926653451985
+          }
+        ],
+        "marginal": [
+          {
+            "to_level": 1,
+            "name": "1 house",
+            "extra_cost": 600,
+            "extra_rent_per_round": 23.091373225841444,
+            "payback_rounds": 25.983729686918007
+          },
+          {
+            "to_level": 2,
+            "name": "2 houses",
+            "extra_cost": 600,
+            "extra_rent_per_round": 75.78432204413008,
+            "payback_rounds": 7.91720482305843
+          },
+          {
+            "to_level": 3,
+            "name": "3 houses",
+            "extra_cost": 600,
+            "extra_rent_per_round": 145.23004888846268,
+            "payback_rounds": 4.131376423764772
+          },
+          {
+            "to_level": 4,
+            "name": "4 houses",
+            "extra_cost": 600,
+            "extra_rent_per_round": 55.55658147546603,
+            "payback_rounds": 10.799800564852283
+          },
+          {
+            "to_level": 5,
+            "name": "hotel",
+            "extra_cost": 600,
+            "extra_rent_per_round": 50.83748761979791,
+            "payback_rounds": 11.8023141601187
+          }
+        ]
+      },
+      {
+        "group": "dark blue",
+        "properties": [
+          "Park Place",
+          "Boardwalk"
+        ],
+        "lot_prices": 750,
+        "house_cost": 200,
+        "landings_per_opponent_turn": {
+          "Park Place": 0.0259443180133334,
+          "Boardwalk": 0.031160310288809688
+        },
+        "group_landings_per_opponent_turn": 0.05710462830214309,
+        "levels": [
+          {
+            "level": 0,
+            "name": "full set, no houses",
+            "investment": 750,
+            "rent_per_opponent_turn": 4.932133289814307,
+            "rent_per_round": 14.796399869442922,
+            "payback_rounds": 50.68800563770092,
+            "payback_opponent_turns": 152.06401691310276
+          },
+          {
+            "level": 1,
+            "name": "1 house",
+            "investment": 1150,
+            "rent_per_opponent_turn": 10.772317710095283,
+            "rent_per_round": 32.31695313028585,
+            "payback_rounds": 35.58503783954425,
+            "payback_opponent_turns": 106.75511351863275
+          },
+          {
+            "level": 2,
+            "name": "2 houses",
+            "investment": 1550,
+            "rent_per_opponent_turn": 31.668345179952514,
+            "rent_per_round": 95.00503553985754,
+            "payback_rounds": 16.31492468996264,
+            "payback_opponent_turns": 48.94477406988792
+          },
+          {
+            "level": 3,
+            "name": "3 houses",
+            "investment": 1950,
+            "rent_per_opponent_turn": 72.1631842190003,
+            "rent_per_round": 216.4895526570009,
+            "payback_rounds": 9.007363062408455,
+            "payback_opponent_turns": 27.022089187225365
+          },
+          {
+            "level": 4,
+            "name": "4 houses",
+            "investment": 2350,
+            "rent_per_opponent_turn": 86.70014090830989,
+            "rent_per_round": 260.1004227249297,
+            "payback_rounds": 9.034971859639201,
+            "payback_opponent_turns": 27.104915578917602
+          },
+          {
+            "level": 5,
+            "name": "hotel",
+            "investment": 2750,
+            "rent_per_opponent_turn": 101.23709759761948,
+            "rent_per_round": 303.71129279285844,
+            "payback_rounds": 9.05465178693765,
+            "payback_opponent_turns": 27.163955360812956
+          }
+        ],
+        "marginal": [
+          {
+            "to_level": 1,
+            "name": "1 house",
+            "extra_cost": 400,
+            "extra_rent_per_round": 17.52055326084293,
+            "payback_rounds": 22.8303292735606
+          },
+          {
+            "to_level": 2,
+            "name": "2 houses",
+            "extra_cost": 400,
+            "extra_rent_per_round": 62.68808240957169,
+            "payback_rounds": 6.380798145756089
+          },
+          {
+            "to_level": 3,
+            "name": "3 houses",
+            "extra_cost": 400,
+            "extra_rent_per_round": 121.48451711714335,
+            "payback_rounds": 3.2926006497955105
+          },
+          {
+            "to_level": 4,
+            "name": "4 houses",
+            "extra_cost": 400,
+            "extra_rent_per_round": 43.61087006792877,
+            "payback_rounds": 9.172025217037762
+          },
+          {
+            "to_level": 5,
+            "name": "hotel",
+            "extra_cost": 400,
+            "extra_rent_per_round": 43.61087006792877,
+            "payback_rounds": 9.172025217037762
+          }
+        ]
+      }
+    ]
+  }
+}

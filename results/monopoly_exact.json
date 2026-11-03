@@ -1,0 +1,757 @@
+{
+  "stay": {
+    "policy": "stay",
+    "in_jail": 0.093855172,
+    "just_visiting": 0.021422281,
+    "rolls_per_turn": 1.1658964,
+    "top10_squares": [
+      {
+        "rank": 1,
+        "square": 24,
+        "name": "Illinois Avenue",
+        "probability": 0.02995492
+      },
+      {
+        "rank": 2,
+        "square": 0,
+        "name": "Go",
+        "probability": 0.029182625
+      },
+      {
+        "rank": 3,
+        "square": 25,
+        "name": "B&O Railroad",
+        "probability": 0.028928474
+      },
+      {
+        "rank": 4,
+        "square": 20,
+        "name": "Free Parking",
+        "probability": 0.028247973
+      },
+      {
+        "rank": 5,
+        "square": 18,
+        "name": "Tennessee Avenue",
+        "probability": 0.028196841
+      },
+      {
+        "rank": 6,
+        "square": 19,
+        "name": "New York Avenue",
+        "probability": 0.028115622
+      },
+      {
+        "rank": 7,
+        "square": 5,
+        "name": "Reading Railroad",
+        "probability": 0.0280496
+      },
+      {
+        "rank": 8,
+        "square": 16,
+        "name": "St. James Place",
+        "probability": 0.026789187
+      },
+      {
+        "rank": 9,
+        "square": 28,
+        "name": "Water Works",
+        "probability": 0.026547522
+      },
+      {
+        "rank": 10,
+        "square": 15,
+        "name": "Pennsylvania Railroad",
+        "probability": 0.026365728
+      }
+    ],
+    "all_categories": [
+      {
+        "index": 0,
+        "name": "Go",
+        "kind": "corner",
+        "probability_per_roll": 0.029182625,
+        "landings_per_turn": 0.034023916
+      },
+      {
+        "index": 1,
+        "name": "Mediterranean Avenue",
+        "kind": "brown",
+        "probability_per_roll": 0.020100288,
+        "landings_per_turn": 0.023434852
+      },
+      {
+        "index": 2,
+        "name": "Community Chest 1",
+        "kind": "community chest",
+        "probability_per_roll": 0.017775077,
+        "landings_per_turn": 0.020723897
+      },
+      {
+        "index": 3,
+        "name": "Baltic Avenue",
+        "kind": "brown",
+        "probability_per_roll": 0.020397644,
+        "landings_per_turn": 0.023781539
+      },
+      {
+        "index": 4,
+        "name": "Income Tax",
+        "kind": "tax",
+        "probability_per_roll": 0.021965935,
+        "landings_per_turn": 0.025610004
+      },
+      {
+        "index": 5,
+        "name": "Reading Railroad",
+        "kind": "railroad",
+        "probability_per_roll": 0.0280496,
+        "landings_per_turn": 0.032702927
+      },
+      {
+        "index": 6,
+        "name": "Oriental Avenue",
+        "kind": "light blue",
+        "probability_per_roll": 0.021345743,
+        "landings_per_turn": 0.024886924
+      },
+      {
+        "index": 7,
+        "name": "Chance 1",
+        "kind": "chance",
+        "probability_per_roll": 0.0081636259,
+        "landings_per_turn": 0.0095179418
+      },
+      {
+        "index": 8,
+        "name": "Vermont Avenue",
+        "kind": "light blue",
+        "probability_per_roll": 0.02190343,
+        "landings_per_turn": 0.02553713
+      },
+      {
+        "index": 9,
+        "name": "Connecticut Avenue",
+        "kind": "light blue",
+        "probability_per_roll": 0.021711771,
+        "landings_per_turn": 0.025313675
+      },
+      {
+        "index": 10,
+        "name": "Just Visiting",
+        "kind": "corner",
+        "probability_per_roll": 0.021422281,
+        "landings_per_turn": 0.024976159
+      },
+      {
+        "index": 11,
+        "name": "St. Charles Place",
+        "kind": "pink",
+        "probability_per_roll": 0.025595521,
+        "landings_per_turn": 0.029841725
+      },
+      {
+        "index": 12,
+        "name": "Electric Company",
+        "kind": "utility",
+        "probability_per_roll": 0.026154825,
+        "landings_per_turn": 0.030493815
+      },
+      {
+        "index": 13,
+        "name": "States Avenue",
+        "kind": "pink",
+        "probability_per_roll": 0.021760003,
+        "landings_per_turn": 0.025369908
+      },
+      {
+        "index": 14,
+        "name": "Virginia Avenue",
+        "kind": "pink",
+        "probability_per_roll": 0.024252704,
+        "landings_per_turn": 0.02827614
+      },
+      {
+        "index": 15,
+        "name": "Pennsylvania Railroad",
+        "kind": "railroad",
+        "probability_per_roll": 0.026365728,
+        "landings_per_turn": 0.030739706
+      },
+      {
+        "index": 16,
+        "name": "St. James Place",
+        "kind": "orange",
+        "probability_per_roll": 0.026789187,
+        "landings_per_turn": 0.031233415
+      },
+      {
+        "index": 17,
+        "name": "Community Chest 2",
+        "kind": "community chest",
+        "probability_per_roll": 0.022951309,
+        "landings_per_turn": 0.026758847
+      },
+      {
+        "index": 18,
+        "name": "Tennessee Avenue",
+        "kind": "orange",
+        "probability_per_roll": 0.028196841,
+        "landings_per_turn": 0.032874594
+      },
+      {
+        "index": 19,
+        "name": "New York Avenue",
+        "kind": "orange",
+        "probability_per_roll": 0.028115622,
+        "landings_per_turn": 0.032779902
+      },
+      {
+        "index": 20,
+        "name": "Free Parking",
+        "kind": "corner",
+        "probability_per_roll": 0.028247973,
+        "landings_per_turn": 0.032934209
+      },
+      {
+        "index": 21,
+        "name": "Kentucky Avenue",
+        "kind": "red",
+        "probability_per_roll": 0.026142143,
+        "landings_per_turn": 0.03047903
+      },
+      {
+        "index": 22,
+        "name": "Chance 2",
+        "kind": "chance",
+        "probability_per_roll": 0.010449535,
+        "landings_per_turn": 0.012183075
+      },
+      {
+        "index": 23,
+        "name": "Indiana Avenue",
+        "kind": "red",
+        "probability_per_roll": 0.025672793,
+        "landings_per_turn": 0.029931816
+      },
+      {
+        "index": 24,
+        "name": "Illinois Avenue",
+        "kind": "red",
+        "probability_per_roll": 0.02995492,
+        "landings_per_turn": 0.034924333
+      },
+      {
+        "index": 25,
+        "name": "B&O Railroad",
+        "kind": "railroad",
+        "probability_per_roll": 0.028928474,
+        "landings_per_turn": 0.033727603
+      },
+      {
+        "index": 26,
+        "name": "Atlantic Avenue",
+        "kind": "yellow",
+        "probability_per_roll": 0.025400841,
+        "landings_per_turn": 0.029614748
+      },
+      {
+        "index": 27,
+        "name": "Ventnor Avenue",
+        "kind": "yellow",
+        "probability_per_roll": 0.025192014,
+        "landings_per_turn": 0.029371277
+      },
+      {
+        "index": 28,
+        "name": "Water Works",
+        "kind": "utility",
+        "probability_per_roll": 0.026547522,
+        "landings_per_turn": 0.030951659
+      },
+      {
+        "index": 29,
+        "name": "Marvin Gardens",
+        "kind": "yellow",
+        "probability_per_roll": 0.024387224,
+        "landings_per_turn": 0.028432976
+      },
+      {
+        "index": 30,
+        "name": "Go To Jail",
+        "kind": "corner",
+        "probability_per_roll": 0.0,
+        "landings_per_turn": 0.0
+      },
+      {
+        "index": 31,
+        "name": "Pacific Avenue",
+        "kind": "green",
+        "probability_per_roll": 0.025249151,
+        "landings_per_turn": 0.029437893
+      },
+      {
+        "index": 32,
+        "name": "North Carolina Avenue",
+        "kind": "green",
+        "probability_per_roll": 0.024769214,
+        "landings_per_turn": 0.028878336
+      },
+      {
+        "index": 33,
+        "name": "Community Chest 3",
+        "kind": "community chest",
+        "probability_per_roll": 0.022291895,
+        "landings_per_turn": 0.02599004
+      },
+      {
+        "index": 34,
+        "name": "Pennsylvania Avenue",
+        "kind": "green",
+        "probability_per_roll": 0.023576359,
+        "landings_per_turn": 0.027487591
+      },
+      {
+        "index": 35,
+        "name": "Short Line",
+        "kind": "railroad",
+        "probability_per_roll": 0.022924746,
+        "landings_per_turn": 0.026727878
+      },
+      {
+        "index": 36,
+        "name": "Chance 3",
+        "kind": "chance",
+        "probability_per_roll": 0.0081744544,
+        "landings_per_turn": 0.0095305667
+      },
+      {
+        "index": 37,
+        "name": "Park Place",
+        "kind": "dark blue",
+        "probability_per_roll": 0.020616192,
+        "landings_per_turn": 0.024036343
+      },
+      {
+        "index": 38,
+        "name": "Luxury Tax",
+        "kind": "tax",
+        "probability_per_roll": 0.020558414,
+        "landings_per_turn": 0.023968981
+      },
+      {
+        "index": 39,
+        "name": "Boardwalk",
+        "kind": "dark blue",
+        "probability_per_roll": 0.024861203,
+        "landings_per_turn": 0.028985586
+      },
+      {
+        "index": 40,
+        "name": "In Jail",
+        "kind": "jail",
+        "probability_per_roll": 0.093855172,
+        "landings_per_turn": 0.1094254
+      }
+    ],
+    "solver_checks": {
+      "method": "direct linear solve of pi(P - I) = 0 with sum(pi) = 1",
+      "n_states": 123,
+      "max_row_sum_error": 2.22e-16,
+      "stationary_sum": 0.999999999999999,
+      "fixed_point_error": 5.07e-16,
+      "max_diff_vs_power_iteration": 3.19e-16,
+      "power_iterations": 220,
+      "max_diff_vs_eigenvector": 5.2e-16,
+      "second_eigenvalue_modulus": 0.871633
+    }
+  },
+  "leave_early": {
+    "policy": "leave_early",
+    "in_jail": 0.039499756,
+    "just_visiting": 0.022695391,
+    "rolls_per_turn": 1.186624,
+    "top10_squares": [
+      {
+        "rank": 1,
+        "square": 24,
+        "name": "Illinois Avenue",
+        "probability": 0.031857663
+      },
+      {
+        "rank": 2,
+        "square": 0,
+        "name": "Go",
+        "probability": 0.03096123
+      },
+      {
+        "rank": 3,
+        "square": 19,
+        "name": "New York Avenue",
+        "probability": 0.030851689
+      },
+      {
+        "rank": 4,
+        "square": 25,
+        "name": "B&O Railroad",
+        "probability": 0.030659047
+      },
+      {
+        "rank": 5,
+        "square": 5,
+        "name": "Reading Railroad",
+        "probability": 0.029631032
+      },
+      {
+        "rank": 6,
+        "square": 18,
+        "name": "Tennessee Avenue",
+        "probability": 0.029355855
+      },
+      {
+        "rank": 7,
+        "square": 15,
+        "name": "Pennsylvania Railroad",
+        "probability": 0.029199693
+      },
+      {
+        "rank": 8,
+        "square": 20,
+        "name": "Free Parking",
+        "probability": 0.028836013
+      },
+      {
+        "rank": 9,
+        "square": 21,
+        "name": "Kentucky Avenue",
+        "probability": 0.028358431
+      },
+      {
+        "rank": 10,
+        "square": 28,
+        "name": "Water Works",
+        "probability": 0.028074184
+      }
+    ],
+    "all_categories": [
+      {
+        "index": 0,
+        "name": "Go",
+        "kind": "corner",
+        "probability_per_roll": 0.03096123,
+        "landings_per_turn": 0.036739338
+      },
+      {
+        "index": 1,
+        "name": "Mediterranean Avenue",
+        "kind": "brown",
+        "probability_per_roll": 0.021313773,
+        "landings_per_turn": 0.025291434
+      },
+      {
+        "index": 2,
+        "name": "Community Chest 1",
+        "kind": "community chest",
+        "probability_per_roll": 0.0188488,
+        "landings_per_turn": 0.022366438
+      },
+      {
+        "index": 3,
+        "name": "Baltic Avenue",
+        "kind": "brown",
+        "probability_per_roll": 0.021624022,
+        "landings_per_turn": 0.025659582
+      },
+      {
+        "index": 4,
+        "name": "Income Tax",
+        "kind": "tax",
+        "probability_per_roll": 0.02328523,
+        "landings_per_turn": 0.027630812
+      },
+      {
+        "index": 5,
+        "name": "Reading Railroad",
+        "kind": "railroad",
+        "probability_per_roll": 0.029631032,
+        "landings_per_turn": 0.035160892
+      },
+      {
+        "index": 6,
+        "name": "Oriental Avenue",
+        "kind": "light blue",
+        "probability_per_roll": 0.022621397,
+        "landings_per_turn": 0.026843091
+      },
+      {
+        "index": 7,
+        "name": "Chance 1",
+        "kind": "chance",
+        "probability_per_roll": 0.0086504781,
+        "landings_per_turn": 0.010264865
+      },
+      {
+        "index": 8,
+        "name": "Vermont Avenue",
+        "kind": "light blue",
+        "probability_per_roll": 0.023209602,
+        "landings_per_turn": 0.027541069
+      },
+      {
+        "index": 9,
+        "name": "Connecticut Avenue",
+        "kind": "light blue",
+        "probability_per_roll": 0.02300335,
+        "landings_per_turn": 0.027296326
+      },
+      {
+        "index": 10,
+        "name": "Just Visiting",
+        "kind": "corner",
+        "probability_per_roll": 0.022695391,
+        "landings_per_turn": 0.026930894
+      },
+      {
+        "index": 11,
+        "name": "St. Charles Place",
+        "kind": "pink",
+        "probability_per_roll": 0.027016578,
+        "landings_per_turn": 0.032058519
+      },
+      {
+        "index": 12,
+        "name": "Electric Company",
+        "kind": "utility",
+        "probability_per_roll": 0.026040375,
+        "landings_per_turn": 0.030900133
+      },
+      {
+        "index": 13,
+        "name": "States Avenue",
+        "kind": "pink",
+        "probability_per_roll": 0.023720903,
+        "landings_per_turn": 0.028147792
+      },
+      {
+        "index": 14,
+        "name": "Virginia Avenue",
+        "kind": "pink",
+        "probability_per_roll": 0.024648884,
+        "landings_per_turn": 0.029248957
+      },
+      {
+        "index": 15,
+        "name": "Pennsylvania Railroad",
+        "kind": "railroad",
+        "probability_per_roll": 0.029199693,
+        "landings_per_turn": 0.034649056
+      },
+      {
+        "index": 16,
+        "name": "St. James Place",
+        "kind": "orange",
+        "probability_per_roll": 0.027924169,
+        "landings_per_turn": 0.033135487
+      },
+      {
+        "index": 17,
+        "name": "Community Chest 2",
+        "kind": "community chest",
+        "probability_per_roll": 0.025944648,
+        "landings_per_turn": 0.030786541
+      },
+      {
+        "index": 18,
+        "name": "Tennessee Avenue",
+        "kind": "orange",
+        "probability_per_roll": 0.029355855,
+        "landings_per_turn": 0.03483436
+      },
+      {
+        "index": 19,
+        "name": "New York Avenue",
+        "kind": "orange",
+        "probability_per_roll": 0.030851689,
+        "landings_per_turn": 0.036609353
+      },
+      {
+        "index": 20,
+        "name": "Free Parking",
+        "kind": "corner",
+        "probability_per_roll": 0.028836013,
+        "landings_per_turn": 0.034217504
+      },
+      {
+        "index": 21,
+        "name": "Kentucky Avenue",
+        "kind": "red",
+        "probability_per_roll": 0.028358431,
+        "landings_per_turn": 0.033650794
+      },
+      {
+        "index": 22,
+        "name": "Chance 2",
+        "kind": "chance",
+        "probability_per_roll": 0.010480329,
+        "landings_per_turn": 0.01243621
+      },
+      {
+        "index": 23,
+        "name": "Indiana Avenue",
+        "kind": "red",
+        "probability_per_roll": 0.027356858,
+        "landings_per_turn": 0.032462303
+      },
+      {
+        "index": 24,
+        "name": "Illinois Avenue",
+        "kind": "red",
+        "probability_per_roll": 0.031857663,
+        "landings_per_turn": 0.037803066
+      },
+      {
+        "index": 25,
+        "name": "B&O Railroad",
+        "kind": "railroad",
+        "probability_per_roll": 0.030659047,
+        "landings_per_turn": 0.03638076
+      },
+      {
+        "index": 26,
+        "name": "Atlantic Avenue",
+        "kind": "yellow",
+        "probability_per_roll": 0.027072038,
+        "landings_per_turn": 0.032124329
+      },
+      {
+        "index": 27,
+        "name": "Ventnor Avenue",
+        "kind": "yellow",
+        "probability_per_roll": 0.026788577,
+        "landings_per_turn": 0.031787967
+      },
+      {
+        "index": 28,
+        "name": "Water Works",
+        "kind": "utility",
+        "probability_per_roll": 0.028074184,
+        "landings_per_turn": 0.033313499
+      },
+      {
+        "index": 29,
+        "name": "Marvin Gardens",
+        "kind": "yellow",
+        "probability_per_roll": 0.025860489,
+        "landings_per_turn": 0.030686676
+      },
+      {
+        "index": 30,
+        "name": "Go To Jail",
+        "kind": "corner",
+        "probability_per_roll": 0.0,
+        "landings_per_turn": 0.0
+      },
+      {
+        "index": 31,
+        "name": "Pacific Avenue",
+        "kind": "green",
+        "probability_per_roll": 0.026773705,
+        "landings_per_turn": 0.03177032
+      },
+      {
+        "index": 32,
+        "name": "North Carolina Avenue",
+        "kind": "green",
+        "probability_per_roll": 0.02625173,
+        "landings_per_turn": 0.031150932
+      },
+      {
+        "index": 33,
+        "name": "Community Chest 3",
+        "kind": "community chest",
+        "probability_per_roll": 0.023660549,
+        "landings_per_turn": 0.028076174
+      },
+      {
+        "index": 34,
+        "name": "Pennsylvania Avenue",
+        "kind": "green",
+        "probability_per_roll": 0.02500628,
+        "landings_per_turn": 0.029673051
+      },
+      {
+        "index": 35,
+        "name": "Short Line",
+        "kind": "railroad",
+        "probability_per_roll": 0.02432638,
+        "landings_per_turn": 0.028866265
+      },
+      {
+        "index": 36,
+        "name": "Chance 3",
+        "kind": "chance",
+        "probability_per_roll": 0.0086687335,
+        "landings_per_turn": 0.010286527
+      },
+      {
+        "index": 37,
+        "name": "Park Place",
+        "kind": "dark blue",
+        "probability_per_roll": 0.021863976,
+        "landings_per_turn": 0.025944318
+      },
+      {
+        "index": 38,
+        "name": "Luxury Tax",
+        "kind": "tax",
+        "probability_per_roll": 0.021798528,
+        "landings_per_turn": 0.025866655
+      },
+      {
+        "index": 39,
+        "name": "Boardwalk",
+        "kind": "dark blue",
+        "probability_per_roll": 0.026259634,
+        "landings_per_turn": 0.03116031
+      },
+      {
+        "index": 40,
+        "name": "In Jail",
+        "kind": "jail",
+        "probability_per_roll": 0.039499756,
+        "landings_per_turn": 0.046871357
+      }
+    ],
+    "solver_checks": {
+      "method": "direct linear solve of pi(P - I) = 0 with sum(pi) = 1",
+      "n_states": 123,
+      "max_row_sum_error": 2.22e-16,
+      "stationary_sum": 1.0,
+      "fixed_point_error": 5.97e-16,
+      "max_diff_vs_power_iteration": 6.28e-16,
+      "power_iterations": 171,
+      "max_diff_vs_eigenvector": 5.62e-16,
+      "second_eigenvalue_modulus": 0.83646
+    }
+  },
+  "published_comparison": {
+    "source": "Truman Collins, Probabilities in the Game of Monopoly, tkcs-collins.com (first table)",
+    "note": "Collins' long-jail column only matches if doubles out of jail earn another roll, which the official rules don't allow; the 'stay' policy here follows the rules.",
+    "short_jail_vs_leave_early": {
+      "max_abs_diff_percentage_points": 7.56e-05,
+      "worst_category": "In Jail",
+      "categories_within_0.0001": "41 of 41"
+    },
+    "long_jail_vs_stay": {
+      "max_abs_diff_percentage_points": 0.0714,
+      "worst_category": "In Jail",
+      "categories_within_0.0001": "2 of 41"
+    },
+    "long_jail_vs_stay_with_reroll_after_jail_doubles": {
+      "max_abs_diff_percentage_points": 5.2e-05,
+      "worst_category": "Vermont Avenue",
+      "categories_within_0.0001": "41 of 41"
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "mode": "full",
+  "seed": 2026,
+  "runtime_seconds": {
+    "monopoly_exact": 0.02,
+    "monopoly_monte_carlo": 6.86,
+    "snakes_and_ladders": 0.35,
+    "figures": 0.31,
+    "total": 7.55
+  },
+  "environment": {
+    "python": "3.11.4",
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8",
+    "machine": "arm64"
+  },
+  "monopoly": {
+    "stay": {
+      "in_jail": 0.093855172,
+      "top10": [
+        [
+          "Illinois Avenue",
+          0.02995492
+        ],
+        [
+          "Go",
+          0.029182625
+        ],
+        [
+          "B&O Railroad",
+          0.028928474
+        ],
+        [
+          "Free Parking",
+          0.028247973
+        ],
+        [
+          "Tennessee Avenue",
+          0.028196841
+        ],
+        [
+          "New York Avenue",
+          0.028115622
+        ],
+        [
+          "Reading Railroad",
+          0.0280496
+        ],
+        [
+          "St. James Place",
+          0.026789187
+        ],
+        [
+          "Water Works",
+          0.026547522
+        ],
+        [
+          "Pennsylvania Railroad",
+          0.026365728
+        ]
+      ],
+      "mc_max_abs_error": 0.0001241,
+      "mc_chi_square_p": 0.6868,
+      "mc_hotelling_t2_p": 0.1318,
+      "mc_inside_95ci": "37 of 40",
+      "ranking_3_houses": [
+        "orange",
+        "dark blue",
+        "red",
+        "yellow",
+        "green",
+        "pink",
+        "light blue",
+        "brown"
+      ],
+      "ranking_hotel": [
+        "orange",
+        "light blue",
+        "red",
+        "pink",
+        "dark blue",
+        "yellow",
+        "green",
+        "brown"
+      ]
+    },
+    "leave_early": {
+      "in_jail": 0.039499756,
+      "top10": [
+        [
+          "Illinois Avenue",
+          0.031857663
+        ],
+        [
+          "Go",
+          0.03096123
+        ],
+        [
+          "New York Avenue",
+          0.030851689
+        ],
+        [
+          "B&O Railroad",
+          0.030659047
+        ],
+        [
+          "Reading Railroad",
+          0.029631032
+        ],
+        [
+          "Tennessee Avenue",
+          0.029355855
+        ],
+        [
+          "Pennsylvania Railroad",
+          0.029199693
+        ],
+        [
+          "Free Parking",
+          0.028836013
+        ],
+        [
+          "Kentucky Avenue",
+          0.028358431
+        ],
+        [
+          "Water Works",
+          0.028074184
+        ]
+      ],
+      "mc_max_abs_error": 0.0001159,
+      "mc_chi_square_p": 0.2219,
+      "mc_hotelling_t2_p": 0.02131,
+      "mc_inside_95ci": "37 of 40",
+      "ranking_3_houses": [
+        "orange",
+        "dark blue",
+        "red",
+        "yellow",
+        "green",
+        "pink",
+        "light blue",
+        "brown"
+      ],
+      "ranking_hotel": [
+        "orange",
+        "light blue",
+        "red",
+        "pink",
+        "dark blue",
+        "yellow",
+        "green",
+        "brown"
+      ]
+    }
+  },
+  "snakes_and_ladders": {
+    "expected_turns": 39.22512231,
+    "variance": 636.2984613,
+    "median": 32,
+    "mc_mean": 39.2217,
+    "mc_mean_ci95": [
+      39.172305,
+      39.271095
+    ],
+    "chute_48_variant_expected_turns": 39.59836564
+  }
+}
